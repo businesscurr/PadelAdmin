@@ -1,0 +1,61 @@
+body {
+    background: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-login {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contenedor-login {
+    background: #FEFEFE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-login h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contenedor-login form .form-group input[type="email"],
+.contenedor-login form .form-group input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+.contenedor-login form .action a {
+    color: #3384A5;
+}
+
+.contenedor-login form .boton button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #40A8D1;
+    color: #F0F2F5;
+    width: 200px;
+}
+
+.contenedor-login form .boton button:hover {
+    background: #3384A5;
+}
+
+@media screen and (max-width: 575px) {
+    .contenedor-login form .action {
+        display: inline-block!important;
+    }
+
+    .contenedor-login form .action .form-check {
+        margin-bottom: 10px;
+    }
+
+    .contenedor-login form .boton button {
+        width: 100%;
+    }
+}
