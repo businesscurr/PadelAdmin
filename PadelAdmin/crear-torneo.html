@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/crear-torneo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Lista de pagos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <div class="logo">
+                    <h2>Nombre de la Página</h2>
+                </div>
+
+                <div class="menu">
+                    <a href="#"><i class="icon icon-home"></i><span>Inicio</span></a>
+                    <a href="#"><i class="icon icon-newspaper"></i><span>Noticias</span></a>
+                    <a href="#"><i class="icon icon-chart-pie"></i><span>Resultados</span></a>
+                    <a href="#"><i class="icon icon-calendar"></i><span>Calendario</span></a>
+                    <a href="#"><i class="icon icon-chart-bar"></i><span>Ranking</span></a>
+                    <a href="#"><i class="icon icon-sliders"></i><span>Gestión</span></a>
+                </div>
+
+                <div class="cerrar-sesion d-flex justify-content-end">
+                    <a href="#"><i class="icon icon-logout"></i> Cerrar Sesión</a>
+                </div>
+            </div>
+
+            <main class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="header-contenedor">
+                            <div class="header d-flex justify-content-between">
+                                <div class="ruta">
+                                    <p><a href="#" class="link-s">Inicio</a> / <a href="#" class="link-s">Torneos</a> / <a href="#" class="link-p">Agregar</a></p>
+                                </div>
+                                
+                                <div class="profile d-flex">
+                                    <div class="profile-notification d-flex align-items-center">
+                                        <p><i class="icon icon-bell"></i> |</p>
+                                    </div>
+                                    <p class="d-flex align-items-center">Admin Name</p>
+                                    <div class="profile-img">
+                                        <a href="">
+                                            <img src="./img/Foto 3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="like-h2">Agregar Torneo</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contenedor-form col">
+                        <p class="title"><i class="icon icon-sliders"></i>Agregar Torneo</p>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="etapa">Etapa</label>
+                                        <select name="" id="etapa">
+                                            <option value="1">Opción 1</option>
+                                            <option value="2">Opción 1</option>
+                                            <option value="3">Opción 1</option>
+                                            <option value="4">Opción 1</option>
+                                        </select>
+                                    </div>
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="fecha-inicio">Fecha Inicio</label>
+                                        <input type="date" id="fecha-inicio">
+                                    </div>
+                                    <div class="option d-flex justify-content-between d-flex">
+                                        <label for="costo">Costo</label>
+                                        <input type="type" id="costo">
+                                    </div>
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="fecha-ins">Fecha Inscripción</label>
+                                        <input type="date" id="fecha-ins">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="cat">Categoría</label>
+                                        <select name="" id="cat">
+                                            <option value="1">Opción 1</option>
+                                            <option value="2">Opción 2</option>
+                                            <option value="3">Opción 3</option>
+                                            <option value="4">Opción 4</option>
+                                        </select>
+                                    </div>
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="fecha-fin">Fecha Fin Aprox.</label>
+                                        <input type="date" id="fecha-fin">
+                                    </div>
+                                    <div class="option d-flex justify-content-between d-flex">
+                                        <label for="parejas-min">Parejas Mínimas</label>
+                                        <input type="text" id="parejas-min">
+                                    </div>
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="fecha-ins-fin">Fecha Ins. Fin</label>
+                                        <input type="date" id="fecha-ins-fin">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="option d-flex justify-content-between">
+                                        <label for="sex">Sexo</label>
+                                        <select name="" id="sex">
+                                            <option value="1">Masculino</option>
+                                            <option value="1">Femenino</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-4 sedes d-flex justify-content-between mt-3 mb-3">
+                                    <label for="sedes">Sedes</label>
+                                    <input type="text" id="sedes">
+                                </div>
+                                <div class="col-12">
+                                    <div class="cont d-flex">
+                                        <p class="puntos d-flex align-items-center">Puntos:</p>
+                                        <div class="fila d-flex flex-column">
+                                            <label for="Ronda1">Ronda 1:</label>
+                                            <input type="text" id="Ronda1">
+                                            <label for="Ronda2">Ronda 2:</label>
+                                            <input type="text" id="Ronda2">
+                                        </div>
+                                        <div class="fila d-flex flex-column">
+                                            <label for="Ronda3">Ronda 3:</label>
+                                            <input type="text" id="Ronda3">
+                                            <label for="Ronda4">4to final:</label>
+                                            <input type="text" id="Ronda4">
+                                        </div>
+                                        <div class="fila d-flex flex-column">
+                                            <label for="Ronda5">8vo final:</label>
+                                            <input type="text" id="Ronda5">
+                                            <label for="Ronda6">Semi Final:</label>
+                                            <input type="text" id="Ronda6">
+                                        </div>  
+                                        <div class="fila d-flex flex-column">
+                                            <label for="Ronda7">Final:</label>
+                                            <input type="text" id="Ronda7">
+                                            <label for="Ronda8">Campeón:</label>
+                                            <input type="text" id="Ronda8">
+                                        </div>                                               
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="botones d-flex justify-content-end">
+                                        <button type="button" class="cancelar">Cancelar</button>
+                                        <button type="submit" class="crear">Crear</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

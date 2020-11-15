@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/lista-pagos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Lista de pagos</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <div class="logo">
+                    <h2>Nombre de la Página</h2>
+                </div>
+
+                <div class="menu">
+                    <a href="#"><i class="icon icon-home"></i><span>Inicio</span></a>
+                    <a href="#"><i class="icon icon-newspaper"></i><span>Noticias</span></a>
+                    <a href="#"><i class="icon icon-chart-pie"></i><span>Resultados</span></a>
+                    <a href="#"><i class="icon icon-calendar"></i><span>Calendario</span></a>
+                    <a href="#"><i class="icon icon-chart-bar"></i><span>Ranking</span></a>
+                    <a href="#"><i class="icon icon-sliders"></i><span>Gestión</span></a>
+                </div>
+
+                <div class="cerrar-sesion d-flex justify-content-end">
+                    <a href="#"><i class="icon icon-logout"></i> Cerrar Sesión</a>
+                </div>
+            </div>
+
+            <main class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="header-contenedor">
+                            <div class="header d-flex justify-content-between">
+                                <div class="ruta">
+                                    <p><a href="#" class="link-s">Inicio</a> / <a href="#" class="link-s">Gestión</a> / <a href="#" class="link-p">Pagos</a></p>
+                                </div>
+                                
+                                <div class="profile d-flex">
+                                    <div class="profile-notification d-flex align-items-center">
+                                        <p><i class="icon icon-bell"></i> |</p>
+                                    </div>
+                                    <p class="d-flex align-items-center">Admin Name</p>
+                                    <div class="profile-img">
+                                        <a href="">
+                                            <img src="./img/Foto 3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                                
+                        </div>
+
+                        <div class="op-busqueda d-flex justify-content-between">
+                            <div class="filtros">
+                                <button type="button"><i class="icon icon-sliders"></i>Filtros</button>
+                            </div>
+                            <div class="others">
+                                <input type="search" placeholder="Buscar Jugador">
+                                <i class="icon icon-th-large-outline"></i>
+                                <button type="button">Agregar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tabla-jugadores col">
+                        <h2 class="like-h2">Pagos</h2>                          
+                          <table class="table mt-3">
+                            <thead class="thead-light t-list">
+                              <tr class="text-center">
+                                <th scope="col">Jugador</th>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Torneo</th>
+                                <th scope="col">Categoría</th>
+                                <th scope="col">Costo</th>
+                                <th scope="col">Por Pagar</th>
+                                <th scope="col">Opciones</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">
+                                        <div class="info d-flex">
+                                            <div class="img">
+                                                <img src="./img/Foto 2.jpg" alt="">
+                                            </div>
+                                            <p class="mb-0 ml-3 d-flex align-items-center">Carla Palacios</p>
+                                        </div>
+                                    </td>
+                                    <td>11/09/2020</td>
+                                    <td>Circuito Copa <br> Londres</td>
+                                    <td>6° <br> Masculino </td>
+                                    <td class="costo">$300</td>
+                                    <td class="por-pagar">$180</td>
+                                    <td>
+                                        <div class="botones">
+                                            <button type="button" class="edit" data-toggle="modal" data-target="#fm-modal-grid"><i class="icon icon-pencil"></i></button>
+                                            <div class="modal fade" id="fm-modal-grid" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-body">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <div class="img-profile">
+                                                                            <img src="./img/Foto 2.jpg" alt="Foto de perfil">
+                                                                        </div>
+                                                                        <div class="texto">
+                                                                            <p>Carla Palacios</p>
+                                                                            <p>Circuito Copa Londres</p>
+                                                                            <p>6°</p>
+                                                                            <p>Femenino</p>
+                                                                            <hr>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12">
+                                                                        <div class="total d-flex">
+                                                                            <p >Pago Total</p>
+                                                                            <p >$300</p>
+                                                                        </div>
+                                                                        <div class="pago d-flex">
+                                                                          <p>Pagado</p>
+                                                                          <p>$100</p>
+                                                                      </div>
+                                                                      <div class="pendiente d-flex">
+                                                                          <p>Pendiente</p>
+                                                                          <p>$200</p>
+                                                                      </div>
+                                                                        <form action="">
+                                                                            <div class="form-group">
+                                                                                <label for="opcionesdepago" class="d-flex mt-2">Opciones de Pago</label>
+                                                                                <select class="form-control" id="opcionesdepago">
+                                                                                  <option>Efectivo</option>
+                                                                                  <option>Tarjeta de débito</option>
+                                                                                  <option>Tarjeta de crédito</option>
+                                                                                  <option>Mercado Pago</option>
+                                                                                  <option>PayPal</option>
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label for="montopago" class="d-flex">Monto a Pagar</label>
+                                                                                <input type="text" id="montopago" class="form-control">
+                                                                            </div>
+                                                                        </form>
+                                                                      <div class="botones d-flex justify-content-end">
+                                                                          <button type="button" data-dismiss="modal" class="cerrar">Cerrar</button>
+                                                                          <button type="submit" class="aceptar">Aceptar</button>
+                                                                      </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="borrar"><i class="icon icon-trash-empty"></i></button>
+                                        </div>
+                                    </td>
+                                </tr>                             
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

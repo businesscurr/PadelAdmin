@@ -46,15 +46,16 @@ body {
     background: #3384A5;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
     .contenedor-login form .action {
-        display: inline-block!important;
-    }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    .contenedor-login form .action .form-check {
-        margin-bottom: 10px;
     }
-
+    .contenedor-login form .action a{
+        margin-top: 5px;
+    }
     .contenedor-login form .boton button {
         width: 100%;
     }
