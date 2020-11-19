@@ -99,7 +99,7 @@ body {
     width: 100%;
 }
 
-/* --- --- CONTENEDOR --- --- */
+/* --- --- CONTENEDOR OPCIONES --- --- */
 
 .main .title-h2 {
     display: inline-block;
@@ -121,66 +121,107 @@ body {
     z-index: -1;
 }
 
-.contenedor-option {
-    background: #fefefe;
-    border-radius: 30px;
-    min-height: 300px;
-    margin-left: 15px;
+.main .opciones {
     margin-top: 20px;
-    padding:20px;
-    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.contenedor-option h3 {
-    text-align: center;
+.main .opciones .contenedor-option {
+    border-radius: 20px;
+    background: #fefefe;
+    padding: 20px;
+    width: 100%;
+    max-width: 337px;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.main .opciones .contenedor-option h3 {
+    font-size: 20px;
+    font-weight: 400;
     color: #9C9C9C;
-    font-size: 22px;
-    font-weight: 500;
+    text-align: center;
 }
 
-.contenedor-option i {
-    color: #2D9CDB;
-    font-size: 80px;
+.main .opciones .contenedor-option .imagen {
+    width: 70px;
+    height: 70px;
+    margin: 25px auto;
 }
 
-.contenedor-option .info {
+.main .opciones .contenedor-option .imagen img {
+    width: 100%;
+}
+
+.main .opciones .contenedor-option .acciones {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 20px;
+   margin-top: 40px;
+}
+
+.main .opciones .contenedor-option .acciones .info {
     display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
 }
 
-.contenedor-option .info .info-prin .title-info{
+.main .opciones .contenedor-option .acciones .info .info-2 {
+    padding-left: 35px;
+}
+
+.main .opciones .contenedor-option .acciones .info p{
+    margin-bottom: 0;
+}
+
+.main .opciones .contenedor-option .acciones .info .title {
     color: #9C9C9C;
-    font-size: 16px;
-    margin-bottom: 8px;
 }
 
-.contenedor-option .info .info-prin .num {
+.main .opciones .contenedor-option .acciones .info .num {
+    text-align: center;
     color: #2D9CDB;
-    font-size: 24px;
+    font-weight: 600;
 }
 
-.contenedor-option .info .botones {
+.main .opciones .contenedor-option .acciones .info .num2 {
+    text-align: center;
+    color: #219653;
+    font-weight: 600;
+}
+
+.main .opciones .contenedor-option .acciones .botones {
     display: flex;
     flex-direction: column;
 }
 
-.contenedor-option .info .botones .agregar,
-.contenedor-option .info .botones .ver-mas {
+.main .opciones .contenedor-option .acciones .botones .agregar,
+.main .opciones .contenedor-option .acciones .botones .ver-mas {
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    color: #FEFEFE;
+}
+
+.main .opciones .contenedor-option .acciones .botones .agregar {
     background: #219653;
-    border: 0;
-    border-radius: 5px;
-    color: #fefefe;
     margin-bottom: 10px;
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
 }
 
-.contenedor-option .info .botones .agregar {
-
+.main .opciones .contenedor-option .acciones .botones .agregar:hover {
+    background: #1b7e46;
 }
+
+.main .opciones .contenedor-option .acciones .botones .ver-mas {
+    background: #2D9CDB;
+}
+
+.main .opciones .contenedor-option .acciones .botones .ver-mas:hover {
+    background: #3384A5;
+}
+
 /* --- --- MEDIAQUERY --- --- */
 
 @media screen and (max-width: 1300px) {
@@ -211,6 +252,15 @@ body {
 
     .main .contenedor .profile {
         display: none;
+    }
+
+    .main .opciones .contenedor-option .acciones .info {
+        display: block;
+    }
+    
+    .main .opciones .contenedor-option .acciones .info .info-2 {
+        padding-left: 0;
+        margin-top: 10px;
     }
 }
 

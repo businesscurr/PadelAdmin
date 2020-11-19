@@ -10,9 +10,11 @@
   /* font-size: 120%; */
 }
  
+.icon-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2b;&nbsp;'); }
 .icon-home { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2302;&nbsp;'); }
 .icon-cog { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2699;&nbsp;'); }
 .icon-pencil { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x270e;&nbsp;'); }
+.icon-eye { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe013;&nbsp;'); }
 .icon-th-large-outline { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe0f9;&nbsp;'); }
 .icon-th-list-outline { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe0fb;&nbsp;'); }
 .icon-trash-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe729;&nbsp;'); }

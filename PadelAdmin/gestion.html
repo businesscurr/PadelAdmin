@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/gestion.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Gestión</title>
+    <title>Card de Jugadores</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -26,15 +26,12 @@
                 </div>
             </div>
             <main class="main col">
-               
                 <div class="row">
                     <div class="col-12">
                         <header class="header d-flex justify-content-between">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                  <li class="breadcrumb-item"><a href="#">Gestión</a></li>
-                                  <li class="breadcrumb-item"><a href="#">Partidos</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Filtros</li>
+                                  <li class="breadcrumb-item active" aria-current="page">Gestión</li>
                                 </ol>
                             </nav>
 
@@ -55,22 +52,131 @@
                     </div>
                     <div class="col-12">
                         <h2 class="title-h2">Gestión</h2>
-                        <div class="row">
-                            <div class="contenedor-option col-4">
-                                <h3>Jugadores</h3>
-                                <i class="icon icon-user"></i>
-                                <div class="info">
-                                    <div class="info-prin">
-                                        <p class="title-info">Inscritos</p>
-                                        <p class="num">64</p>
+                        <div class="opciones">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-xl-4">
+                                    <div class="contenedor-option">
+                                        <h3>Jugadores</h3>
+                                        <div class="imagen">
+                                            <img src="./img/Users.png" alt="">
+                                        </div>
+                                        <div class="acciones">
+                                            <div class="info">
+                                                <div class="info-1">
+                                                    <p class="title">Inscritos</p>
+                                                    <p class="num">64</p>
+                                                </div>
+                                            </div>
+                                            <div class="botones">
+                                                <button type="button" class="agregar">
+                                                    <i class="icon icon-plus"></i>
+                                                </button>
+                                                <button type="button" class="ver-mas">
+                                                    <i class="icon icon-eye"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="botones">
-                                        <button type="button" class="agregar">+</button>
-                                        <button type="button" class="ver-mas">+</button>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4">
+                                    <div class="contenedor-option">
+                                        <h3>Torneos</h3>
+                                        <div class="imagen">
+                                            <img src="./img/Trofeo.png" alt="">
+                                        </div>
+                                        <div class="acciones">
+                                            <div class="info">
+                                                <div class="info-1">
+                                                    <p class="title">Activos</p>
+                                                    <p class="num">64</p>
+                                                </div>
+                                                <div class="info-2">
+                                                    <p class="title">Cerrados</p>
+                                                    <p class="num2">64</p>
+                                                </div>                                                
+                                            </div>
+                                            <div class="botones">
+                                                <button type="button" class="agregar">
+                                                    <i class="icon icon-plus"></i>
+                                                </button>
+                                                <button type="button" class="ver-mas">
+                                                    <i class="icon icon-eye"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4">
+                                    <div class="contenedor-option">
+                                        <h3>Partidos</h3>
+                                        <div class="imagen">
+                                            <img src="./img/Calendar.png" alt="">
+                                        </div>
+                                        <div class="acciones">
+                                            <div class="info">
+                                                <div class="info-1">
+                                                    <p class="title">Próximos</p>
+                                                 <p class="num">27</p>
+                                                </div>
+                                                <div class="info-2">
+                                                    <p class="title">En curso</p>
+                                                    <p class="num2">5</p>
+                                                </div>
+                                            </div>
+                                            <div class="botones">
+                                                <button type="button" class="agregar">
+                                                    <i class="icon icon-plus"></i>
+                                                </button>
+                                                <button type="button" class="ver-mas">
+                                                    <i class="icon icon-eye"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4">
+                                    <div class="contenedor-option">
+                                        <h3>Pagos</h3>
+                                        <div class="imagen">
+                                            <img src="./img/Dollar.png" alt="">
+                                        </div>
+                                        <div class="acciones">
+                                            <div class="info">
+                                                <div class="info-1">
+                                                    <p class="title">Inscritos</p>
+                                                    <p class="num">64</p>
+                                                </div>
+                                            </div>
+                                            <div class="botones">
+                                                <button type="button" class="agregar">
+                                                    <i class="icon icon-plus"></i>
+                                                </button>
+                                                <button type="button" class="ver-mas">
+                                                    <i class="icon icon-eye"></i>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <nav aria-label="..." class="d-flex justify-content-center">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <span class="page-link">Anterior</span>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item">
+                                <span class="page-link">
+                                  2
+                                </span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                              </li>
+                            </ul>
+                          </nav>
                     </div>
                 </div>     
         </main>
