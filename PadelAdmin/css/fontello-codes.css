@@ -10,7 +10,10 @@
 .icon-chart-pie:before { content: '\e751'; } /* '' */
 .icon-user:before { content: '\e807'; } /* '' */
 .icon-logout:before { content: '\e808'; } /* '' */
+.icon-dollar:before { content: '\f155'; } /* '' */
 .icon-sliders:before { content: '\f1de'; } /* '' */
+.icon-award:before { content: '🏉'; } /* '\1f3c9' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
 .icon-calendar:before { content: '📅'; } /* '\1f4c5' */
 .icon-chart-bar:before { content: '📊'; } /* '\1f4ca' */
 .icon-newspaper:before { content: '📰'; } /* '\1f4f0' */

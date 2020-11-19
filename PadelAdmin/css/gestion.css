@@ -99,92 +99,88 @@ body {
     width: 100%;
 }
 
-.main .opciones {
+/* --- --- CONTENEDOR --- --- */
+
+.main .title-h2 {
+    display: inline-block;
+    border-bottom: 2px solid #2D9CDB;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+} 
+
+.main .title-h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    left: 0;
+    margin-top: 1px;
+    border-bottom: 1px solid #DCDCDC;
+    z-index: -1;
+}
+
+.contenedor-option {
+    background: #fefefe;
+    border-radius: 30px;
+    min-height: 300px;
+    margin-left: 15px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding:20px;
+    text-align: center;
 }
 
-.main .opciones .title-collapse {
-    border: 1px solid #2D9CDB;
-    border-radius: 5px;
-    background:none;
-    width: 100%;
-    height: 60px;
-    color: #03080B;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.main .opciones .perfil-button {
-    border-bottom: none;
-    border-end-end-radius: 0;
-    border-end-start-radius: 0;
-}
-
-.main .opciones .contraseña-button {
-    border-start-start-radius: 0;
-    border-start-end-radius: 0;
-}
-
-.main .collapse .card-body .foto-perfil {
-    border: 2px solid #9C9C9C;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    margin: auto;
-}
-
-.main .collapse .card-body .foto-perfil img {
-    width: 100%;
-}
-
-.main .collapse .card-body p {
+.contenedor-option h3 {
     text-align: center;
     color: #9C9C9C;
+    font-size: 22px;
+    font-weight: 500;
 }
 
-.main .collapse .card-body p span {
+.contenedor-option i {
     color: #2D9CDB;
-    font-size: 20px;
+    font-size: 80px;
 }
 
-.main .collapse .card-body form {
-    margin: auto;
+.contenedor-option .info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.main .collapse .card-body form .contenedor-formulario {
+.contenedor-option .info .info-prin .title-info{
+    color: #9C9C9C;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contenedor-option .info .info-prin .num {
+    color: #2D9CDB;
+    font-size: 24px;
+}
+
+.contenedor-option .info .botones {
     display: flex;
     flex-direction: column;
 }
 
-.main .collapse .card-body form input,
-.main .collapse .card-body form select {
-    border: 1px solid #2D9CDB;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-.main .collapse .card-body form .button {
-    display: flex;
-    justify-content: center;
-}
-
-.main .collapse .card-body form .button button{
-    border: none;
+.contenedor-option .info .botones .agregar,
+.contenedor-option .info .botones .ver-mas {
+    background: #219653;
+    border: 0;
     border-radius: 5px;
-    background: #2D9CDB;
-    color: #fefefe; 
-    width: 140px;
-    height: 40px;
+    color: #fefefe;
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
 }
 
-.main .collapse .card-body form .button button:hover {
-    background: #3384A5;
+.contenedor-option .info .botones .agregar {
+
 }
-
-
 /* --- --- MEDIAQUERY --- --- */
 
 @media screen and (max-width: 1300px) {
