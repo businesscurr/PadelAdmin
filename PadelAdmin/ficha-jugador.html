@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/ficha-jugador.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Filtro de Noticias</title>
+</head>
+<body> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <div class="logo">
+                    <h2>Logotipo</h2>
+                </div>
+                <div class="menu">
+                    <a href="#"><i class="icon icon-home"></i><span>Inicio</span></a>
+                    <a href="#"><i class="icon icon-newspaper"></i><span>Noticias</span></a>
+                    <a href="#"><i class="icon icon-chart-pie"></i><span>Resultados</span></a>
+                    <a href="#"><i class="icon icon-chart-bar"></i><span>Ranking</span></a>
+                    <a href="#"><i class="icon icon-sliders"></i><span>Gestión</span></a>
+                    <a href="#" class="cerrar-sesion"><i class="icon icon-logout"></i><span>Cerrar Sesión</span></a>
+                </div>
+            </div>
+            <main class="main col">
+               
+                <div class="row">
+                    <div class="col-12">
+                        <header class="header d-flex justify-content-between">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                                  <li class="breadcrumb-item"><a href="#">Jugadores</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Perfil</li>
+                                </ol>
+                            </nav>
+
+                            <div class="contenedor align-items-center">
+                                <div class="notification mr-3">
+                                    <a href="#"><i class="icon icon-bell"></i></a> <span>|</span>
+                                </div>       
+                                <div class="profile align-items-center">
+                                    <a href="#" class="admin-name mr-2">Admin Name</a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="./img/Foto 2.jpg" alt="Foto de Perfil">
+                                        </a>
+                                    </div>
+                                </div>                             
+                            </div>
+                        </header>
+                    </div>
+                    <div class="col-12 ">
+                        <div class="info-principal">
+                           <div class="row">
+                               <div class="col-12 col-md-6 col-lg-4">
+                                   <div class="img-profile">
+                                       <img src="./img/Foto 3.jpg" alt="">
+                                   </div>
+                                   <div class="boton">
+                                       <button class="contactar">Contactar</button>
+                                   </div>
+                               </div>
+                               <div class="col-12 col-md-6 col-lg-4">
+                                   <h2 class="user-title">Daniela Marrero</h2>
+                                   <p class="localidad">Distrito Federal, Argentina</p>
+                                   <div class="row row-info">
+                                       <div class="col-5 col-sm-4 col-md-6">
+                                           <div class="user-info">
+                                               <p>Categoría:</p>
+                                               <p>6°</p>
+                                           </div>
+                                           <div class="user-info">
+                                                <p>Edad:</p>
+                                                <p>29</p>
+                                            </div>
+                                            <div class="user-info">
+                                                <p>Peso:</p>
+                                                <p>79 kg</p>
+                                            </div>
+                                            <div class="user-info">
+                                                <p>Altura:</p>
+                                                <p>1.89 mts</p>
+                                            </div>
+                                       </div>
+                                       <div class="col-5 col-sm-4 col-md-6">
+                                           <div class="ranking">
+                                                <p class="ranking-title">Ranking</p>
+                                                <p class="ranking-info">1</p>
+                                           </div>
+                                       </div>
+                                       <hr>
+                                       <div class="col-12">
+                                           <div class="row">
+                                               <div class="col-6">
+                                                    <div class="torneos">
+                                                        <p class="torneos-title">Torneos Inscritos</p>
+                                                        <p class="torneos-info verde">28</p>
+                                                    </div>
+                                               </div>
+                                               <div class="col-6">
+                                                    <div class="torneos">
+                                                        <p class="torneos-title">Torneos Inscritos</p>
+                                                        <p class="torneos-info rojo">7</p>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-12 col-lg-4 d-none d-lg-block">
+                                   <div class="map"></div>
+                                   <div class="rrss">
+                                       <div class="rrss-icon">
+                                           <img src="./img/ig.png" alt="">
+                                       </div>
+                                       <div class="rrss-icon fb">
+                                           <img src="./img/fb.png" alt="">
+                                       </div>
+                                       <div class="rrss-icon">
+                                           <img src="./img/tw.png" alt="">
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div> 
+                    <div class="col-12">
+                        <h2 class="title-h2">Información Jugador</h2>
+                        <div class="row mt-3 mb-3 ml-1">
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <button class="jugadores-info" data-toggle="collapse" href="#torneos-inscritos" role="button" aria-expanded="false" aria-controls="torneos-inscritos">
+                                    Torneos Inscritos
+                                  </button>
+                              <div class="collapse" id="torneos-inscritos">
+                                  <div class="card card-body">
+                                        <div class="info">
+                                            <div class="info-content">
+                                                <div class="nombre">
+                                                    <p>Nombre del Torneo</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>$</p>
+                                                <p class="info-content-verde">5.000</p>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>Fecha</p>
+                                                <p class="info-content-azul">05-12-20</p>
+                                            </div>
+                                        </div>
+                                        <div class="info">
+                                            <div class="info-content">
+                                                <div class="nombre">
+                                                    <p>Nombre del Torneo</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>$</p>
+                                                <p class="info-content-verde">5.000</p>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>Fecha</p>
+                                                <p class="info-content-azul">05-12-20</p>
+                                            </div>
+                                        </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <button class="jugadores-info" data-toggle="collapse" href="#torneos-por-pagar" role="button" aria-expanded="false" aria-controls="torneos-por-pagar">
+                                    Torneos por Pagar
+                                  </button>
+                              <div class="collapse" id="torneos-por-pagar">
+                                  <div class="card card-body">
+                                        <div class="info">
+                                            <div class="info-content">
+                                                <div class="nombre">
+                                                    <p>Nombre del Torneo</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>$</p>
+                                                <p class="info-content-rojo">5.000</p>
+                                            </div>
+                                            <div class="info-content">
+                                                <p>Fecha</p>
+                                                <p class="info-content-azul">05-12-20</p>
+                                            </div>
+                                        </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                                <button class="jugadores-info" data-toggle="collapse" href="#datos-contacto" role="button" aria-expanded="false" aria-controls="datos-contacto">
+                                    Torneos por Pagar
+                                  </button>
+                                <div class="collapse" id="datos-contacto">
+                                  <div class="card card-body">
+                                        <div class="info info-content-contacto">
+                                            <div class="info-content">
+                                                <p>+058-1234.5678</p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-content-contacto">
+                                            <div class="info-content">
+                                                <p>tucorreo@gmail.com</p>
+                                            </div>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="jugadores-info2" data-toggle="collapse" href="#pagos" role="button" aria-expanded="false" aria-controls="pagos">
+                                    Pagos
+                                  </button>
+                                <div class="collapse" id="pagos">
+                                  <div class="card card-body">
+                                    <div class="contenedor-tabla">
+                                        <div class="table-responsive">
+                                          <table class="table table-hover table-bordered table-sm">
+                                            <thead>
+                                              <tr class="table-active">
+                                                <th scope="col" class="title-table">Fecha</th>
+                                                <th scope="col" class="title-table">Cat.</th>
+                                                <th scope="col" class="title-table">Torneo</th>
+                                                <th scope="col" class="title-table">Costo</th>
+                                                <th scope="col" class="title-table">Pago</th>
+                                                <th scope="col" class="title-table">Acciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">$200</td>
+                                                <td class="td-pago rojo">-</td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">$200</td>
+                                                <td class="td-pago">$200</td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">$200</td>
+                                                <td class="td-pago">$200</td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">$200</td>
+                                                <td class="td-pago rojo">-</td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="jugadores-info2" data-toggle="collapse" href="#torneos" role="button" aria-expanded="false" aria-controls="torneos">
+                                    Torneos
+                                </button>
+                                <div class="collapse" id="torneos">
+                                  <div class="card card-body">
+                                    <div class="contenedor-tabla">
+                                        <div class="table-responsive">
+                                          <table class="table table-hover table-bordered table-sm">
+                                            <thead>
+                                              <tr class="table-active">
+                                                <th scope="col" class="title-table">Fecha</th>
+                                                <th scope="col" class="title-table">Cat.</th>
+                                                <th scope="col" class="title-table">Torneo</th>
+                                                <th scope="col" class="title-table">Estado</th>
+                                                <th scope="col" class="title-table">Pareja</th>
+                                                <th scope="col" class="title-table">Acciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">Activo</td>
+                                                <td>
+                                                    <div class="contenedor-pareja">
+                                                        <div class="img">
+                                                            <img src="./img/Foto 3.jpg" alt="">
+                                                        </div>
+                                                        <p>Devon Lane</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo rojo">Finalizado</td>
+                                                <td>
+                                                    <div class="contenedor-pareja">
+                                                        <div class="img">
+                                                            <img src="./img/Foto 2.jpg" alt="">
+                                                        </div>
+                                                        <p>Theresa Webb</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo rojo">Finalizado</td>
+                                                <td>
+                                                    <div class="contenedor-pareja">
+                                                        <div class="img">
+                                                            <img src="./img/Foto 1.jpg" alt="">
+                                                        </div>
+                                                        <p>Kristin Watson</p>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="jugadores-info2" data-toggle="collapse" href="#proximos-torneos" role="button" aria-expanded="false" aria-controls="proximos-torneos">
+                                    Próximos Partidos
+                                </button>
+                                <div class="collapse" id="proximos-torneos">
+                                  <div class="card card-body">
+                                    <div class="contenedor-tabla">
+                                        <div class="table-responsive">
+                                          <table class="table table-hover table-bordered table-sm">
+                                            <thead>
+                                              <tr class="table-active">
+                                                <th scope="col" class="title-table">Fecha</th>
+                                                <th scope="col" class="title-table">Cat.</th>
+                                                <th scope="col" class="title-table">Torneo</th>
+                                                <th scope="col" class="title-table">Ronda</th>
+                                                <th scope="col" class="title-table">Sede</th>
+                                                <th scope="col" class="title-table">Competidores</th>
+                                                <th scope="col" class="title-table">Acciones</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>11/09/2020</td>
+                                                <td>6°</td>
+                                                <td>Circuito Copa Londres</td>
+                                                <td class="td-costo">SF</td>
+                                                <td>Nombre del Club</td>
+                                                <td>
+                                                    <div class="contenedor-competidores">
+                                                        <div class="contenedor-pareja">
+                                                            <div class="img">
+                                                                <img src="./img/Foto 3.jpg" alt="">
+                                                            </div>
+                                                            <p>Devon Lane</p>
+                                                        </div>
+                                                        <div class="contenedor-pareja">
+                                                            <div class="img">
+                                                                <img src="./img/Foto 2.jpg" alt="">
+                                                            </div>
+                                                            <p>Coby Fishe</p>
+                                                        </div>
+                                                    </div>             
+                                                </td>
+                                                <td>
+                                                    <div class="botones">
+                                                        <button><img src="./img/Vector.png" alt=""></button>
+                                                        <button class="watch"><img src="./img/Vector-1.png" alt=""></button>
+                                                        <button><img src="./img/Vector-2.png" alt=""></button>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="jugadores-info2" data-toggle="collapse" href="#indicadores" role="button" aria-expanded="false" aria-controls="indicadores">
+                                    Indicadores
+                                </button>
+                                <div class="collapse" id="indicadores">
+                                    <div class="card card-body">
+                                        <div class="jugador-info">
+                                            <div class="jugador-info-content">
+                                                <p class="jugador-info-title">Participación en Torneos</p>
+                                                <div class="progress" style="height: 20px; width: 60%;">
+                                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                                </div>
+                                            </div>
+                                            <div class="jugador-info-content">
+                                                <p class="jugador-info-title">Fair Play</p>
+                                                <div class="progress" style="height: 20px; width: 60%">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="opciones">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-xl-4">
+                                            <div class="contenedor-option">
+                                                <h3>Torneos Jugados</h3>
+                                                <p class="Numb">7</p>
+                                                <div class="contenedor-info">
+                                                    <div class="info">
+                                                        <p class="info-titulo">Ganados</p>
+                                                        <p class="info-num azul">3</p>
+                                                    </div>
+                                                    <div class="info">
+                                                        <p class="info-titulo">Efectividad</p>
+                                                        <p class="info-num verde">45%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-xl-4">
+                                            <div class="contenedor-option">
+                                                <h3>Partidos Jugados</h3>
+                                                <p class="Numb azul">50</p>
+                                                <div class="contenedor-info">
+                                                    <div class="info">
+                                                        <p class="info-titulo">Ganados</p>
+                                                        <p class="info-num azul">40</p>
+                                                    </div>
+                                                    <div class="info">
+                                                        <p class="info-titulo">Perdidos</p>
+                                                        <p class="info-num rojo">10</p>
+                                                    </div>
+                                                    <div class="info">
+                                                        <p class="info-titulo">Efectividad</p>
+                                                        <p class="info-num verde">90%</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-xl-4">
+                                            <div class="contenedor-option">
+                                                <h3>Cuenta Corriente</h3>
+                                                <div class="contenedor-circulo">
+                                                    <div class="circulo">
+                                                        <div class="inner-circulo">
+                                                        </div>
+                                                        <div class="outer-circulo">
+                                                        </div>
+                                                        <div class="numb-circulo">
+                                                            0
+                                                        </div>
+                                                        <div class="circle">
+                                                            <div class="dot">
+                                                                <span></span>
+                                                            </div>
+                                                            <div class="barra izquierda">
+                                                                <div class="progreso">
+                                                                </div>
+                                                            </div>
+                                                            <div class="barra derecha">
+                                                                <div class="progreso">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="contenedor-info">
+                                                    <div class="info">
+                                                        <p class="info-titulo rojo">2 Inscripciones <br> Pendientes</p>
+                                                        <p class="info-num verde">$1599</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>     
+        </main>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <SCRIpt src="./js/script.js"></SCRIpt>
+</body>
+</html>

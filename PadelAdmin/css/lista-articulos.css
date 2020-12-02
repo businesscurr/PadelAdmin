@@ -1,3 +1,19 @@
+/* --- --- COLORS --- --- */
+/* --- --- #0D222A --- --- */
+/* --- --- #9C9C9C --- --- */
+/* --- --- #03080B --- --- */
+/* --- --- #FEFEFE --- --- */
+/* --- --- #A2D5E9 --- --- */
+/* --- --- #F0F2F5 --- --- */
+/* --- --- #DDDDDD --- --- */
+/* --- --- #F2C94C --- --- */
+/* --- --- #219653 --- --- */
+/* --- --- #1F5266 --- --- */
+/* --- --- #F2994A --- --- */
+/* --- --- #EB5757 --- --- */
+/* --- --- #3384A5 --- --- */
+/* --- --- #2D9CDB --- --- */
+
 body {
     background: #F0F2F5;
     font-family: 'Poppins', sans-serif;
@@ -8,157 +24,154 @@ body {
 
 .barra-lateral {
     background: #3384A5;
+    min-width: 250px;
     min-height: 100vh;
-    width: 250px;
     padding: 0;
 }
 
 .barra-lateral .logo {
-    padding: 20px;
+    background: #2D9CDB;
+    padding: 20PX;
     text-align: center;
-}
-
-.barra-lateral .logo h2{
-    font-size: 20px;
+    color: #F0F2F5;
     margin: 0;
 }
 
 .barra-lateral .menu a{
-    display: block;
-    padding: 20px;
-    color: #fefefe;
     border-bottom: 1px solid rgba(250, 250, 250, .1);
+    display: block;
     font-size: 16px;
-    font-weight: 400;
+    color: #fefefe;
+    padding: 20px;
 }
 
 .barra-lateral .menu a:hover {
-    background: #A2D5E9;
+    background: rgba(250, 250, 250, .1);
     text-decoration: none;
-    color: #03080B;
 }
-
 .barra-lateral .menu a i {
     margin-right: 20px;
 }
 
-.barra-lateral .cerrar-sesion {
-    margin-top: 40px;
-    margin-right: 15px;
-}
-.barra-lateral .cerrar-sesion a{
-    color: #fefefe;
-    font-size: 16px;
-    font-weight: 300;
-}
-
 /* --- --- HEADER --- --- */
 
-.header-contenedor .header {
+.main {
     margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.header-contenedor .header .ruta .link-s,
-.header-contenedor .header .ruta p {
-    color: #03080B;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0;
-}
-
-.header-contenedor .header .ruta .link-p {
-    color: #03080B;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.header-contenedor .header .profile .profile-notification p {
-    color: #2D9CDB;
-    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 30px;
     margin-right: 30px;
 }
-.header-contenedor .header .profile p {
+
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main .breadcrumb {
+    background: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.main .contenedor {
+    display: flex;
+}
+
+.main .contenedor .profile {
+    display: flex;
+}
+
+.main .contenedor .profile .admin-name{
+    color: #03080B;
+    margin-right: 5px;
     font-size: 14px;
-    font-weight: 500;
-    margin: 0;
 }
 
-.header-contenedor .header .profile .profile-img {
-    width: 45px;
-    height: 45px;
+.main .contenedor .profile .photo {
+    border: 2px solid #2D9CDB;
     border-radius: 100%;
-    border: 2px solid #9C9C9C;
+    width: 40px;
+    height: 40px;
     overflow: hidden;
-    margin-left: 10px;
 }
 
-.header-contenedor .header .profile .profile-img img {
+.main .contenedor .profile .photo a img {
     width: 100%;
 }
 
-/* --- --- OPCIONES DE BÚSQUEDA --- --- */
+/* --- --- Contenedor de Opciones --- --- */
 
-.op-busqueda .filtros button {
-    border: 2px solid #2D9CDB;
-    border-radius: 5px;
-    width: 100px;
-    height: 40px;
-
+div.col-12.contenedor-opciones {
+    padding-right: 0;
 }
 
-.op-busqueda .filtros button i {
-    margin-right: 5px;
+.contenedor-opciones {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
 }
 
-.op-busqueda .filtros button:hover {
+.contenedor-opciones .filtro button {
+    border: 1px solid #2D9CDB;
+    border-radius: 3px;
+    color: #03080B;
+    padding: 3px 10px;
+}
+
+.contenedor-opciones .filtro button:hover {
     background: #2D9CDB;
     color: #fefefe;
 }
 
-.op-busqueda .others input[type="search"] {
-    border: 2px solid #DDDDDD;
-    border-radius: 10px;
+.contenedor-opciones .action {
+    display: flex;
+}
+
+.contenedor-opciones .action .buscador input[type="search"]{
     background: none;
-    padding: 5px;
-    margin-right: 20px;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
     width: 300px;
-    height: 40;
+    height: 35px;
+    padding: 5px;
+    color: #9c9c9c;
 }
 
-.op-busqueda .others i {
-    color: #2D9CDB;
+.contenedor-opciones .action .boton-grid {
+    margin: 0 20px;
     font-size: 20px;
+    color: #2D9CDB;
+    background: none;
+    border: none;
 }
 
-.op-busqueda .others button {
+.contenedor-opciones .action .boton-grid:hover {
+    color: #3384A5;
+}
+
+.contenedor-opciones .action .agregar {
+    color: #fefefe;
     border: none;
     border-radius: 5px;
-    color: #fefefe;
-    font-size: 16px;
-    font-weight: 500;
     background: #2D9CDB;
-    padding: 5px;
-    width: 120px;
-    margin-left: 20px;
-    
+    width: 90px;
+    height: 35px;
 }
 
-.op-busqueda .others button:hover {
+.contenedor-opciones .action .agregar:hover {
     background: #3384A5;
 }
 
-/* --- --- JUGADORES --- --- */
-
-.like-h2 {
+.main .title-h2 {
     display: inline-block;
     border-bottom: 2px solid #2D9CDB;
     font-size: 24px;
     font-weight: 400;
     margin-top: 25px;
-}
+} 
 
-.like-h2:after {
+.main .title-h2::after {
     content: "";
     position: absolute;
     display: block;
@@ -166,48 +179,127 @@ body {
     height: 0;
     left: 0;
     margin-top: 1px;
-    border-bottom: 1px solid #9C9C9C;
+    border-bottom: 1px solid #DCDCDC;
     z-index: -1;
 }
 
-/* --- --- LISTA --- --- */
+/* --- --- TABLA --- --- */
 
-.tabla-jugadores .table tbody td .info p {
+td, thead {
     font-size: 14px;
-    font-weight: 600;
-}
-
-.tabla-jugadores .table tbody {
-    font-size: 14px;
-    font-weight: 300;
     text-align: center;
 }
 
-
-.tabla-jugadores .table tbody .botones {
-    text-align: center;
+.main .contenedor-table .table-responsive .table tbody tr td {
+    vertical-align: middle;
 }
 
-.tabla-jugadores .table tbody .botones button {
+.main .contenedor-table .botones {
+    display: flex;
+    justify-content: center;
+}
+
+.main .contenedor-table .botones button {
     border: none;
     border-radius: 5px;
-    color: #fefefe;
-    padding: 3px;
+    color: #FEFEFE;
+    padding: 5px;
 }
 
-.tabla-jugadores .table tbody .botones  .edit {
+.main .contenedor-table .botones button:first-child {
+    margin-right: 15px;
+}
+
+.main .contenedor-table .botones .editar {
     background: #2D9CDB;
-    margin-right: 10px;
 }
 
-.tabla-jugadores .table tbody .botones  .edit:hover {
+.main .contenedor-table .botones .editar:hover {
     background: #3384A5;
 }
 
-.tabla-jugadores .table tbody .botones .borrar {
+.main .contenedor-table .botones .borrar {
     background: #EB5757;
 }
 
-.tabla-jugadores .table tbody .botones .borrar:hover {
-    background: #d34f4f;
+.main .contenedor-table .botones .borrar:hover {
+    background: #c74a4a;
+}
+
+/* --- --- MEDIAQUERY --- --- */
+
+@media screen and (max-width: 1300px) {
+
+        /* --- --- BARRA LATERAL --- --- */
+        .barra-lateral {
+            min-width: auto;
+        }
+    
+        .barra-lateral .logo {
+            display: none;
+        }
+    
+        .barra-lateral .menu a span {
+            display: none;
+        }
+    
+        .barra-lateral .menu a i {
+            margin-right: 0;
+        }
+    
+}
+
+@media screen and (max-width: 765px) {
+
+    .main .contenedor .notification span {
+        display: none;
+    }
+
+    .main .contenedor .profile {
+        display: none;
+    }
+
+    /* --- --- Contenedor de Opciones --- --- */
+
+    .contenedor-opciones .filtro button span {
+        display: none;
+    }
+
+    .contenedor-opciones .action .boton-grid {
+        display: none;
+    }
+
+    .contenedor-opciones .action .buscador input[type="search"] {
+        width: 200px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    /* --- --- BARRA LATERAL --- --- */
+    .barra-lateral {
+        min-height: auto;
+    }
+
+    .barra-lateral .menu {
+        text-align: center;
+    }
+
+    .barra-lateral .menu a {
+        display: inline-block;
+    }
+
+    /* --- --- Contenedor de Opciones --- --- */
+
+    .contenedor-opciones .action {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .contenedor-opciones .action .buscador input[type="search"] {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }  
+
 }

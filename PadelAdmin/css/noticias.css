@@ -1,19 +1,3 @@
-/* --- --- COLORS --- --- */
-/* --- --- #0D222A --- --- */
-/* --- --- #9C9C9C --- --- */
-/* --- --- #03080B --- --- */
-/* --- --- #FEFEFE --- --- */
-/* --- --- #A2D5E9 --- --- */
-/* --- --- #F0F2F5 --- --- */
-/* --- --- #DDDDDD --- --- */
-/* --- --- #F2C94C --- --- */
-/* --- --- #219653 --- --- */
-/* --- --- #1F5266 --- --- */
-/* --- --- #F2994A --- --- */
-/* --- --- #EB5757 --- --- */
-/* --- --- #3384A5 --- --- */
-/* --- --- #2D9CDB --- --- */
- 
 body {
     background: #F0F2F5;
     font-family: 'Poppins', sans-serif;
@@ -99,7 +83,7 @@ body {
     width: 100%;
 }
 
-/* --- --- CONTENEDOR FORMULARIO --- --- */
+/* --- --- CONTENEDOR OPCIONES --- --- */
 
 .main .title-h2 {
     display: inline-block;
@@ -121,69 +105,149 @@ body {
     z-index: -1;
 }
 
-.agregar-filtros .formulario p{
-    color: #2D9CDB;
+.main .opciones {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.formulario,
-.contenedor-resultados {
-    border-radius: 10px;
+
+.main .opciones .contenedor-option {
+    border-radius: 20px;
     background: #fefefe;
     padding: 20px;
-    margin-top: 20px;
+    width: 100%;
+    max-width: 337px;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
-.formulario form {
-    padding-left: 20px;
-    padding-right: 20px;
+.main .opciones .contenedor-option h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #9C9C9C;
+    text-align: center;
 }
 
-.formulario form .option {
-    margin-bottom: 20px;
+.main .opciones .contenedor-info {
     display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.main .opciones .contenedor-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+.main .opciones .contenedor-info .info {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.formulario form .option input,
-.formulario form .option select {
-    border: 1px solid #DCDCDC;
-    border-radius: 5px;
-    background: none;
-    width: 190px;
-    height: 30px;
-    color: #03080B;
+.main .opciones .contenedor-info .info-num {
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.formulario form .botones {
-    justify-content: flex-end;
+.main .opciones .contenedor-info .azul,
+.main .opciones .contenedor-option .azul {
+    color: #2D9CDB;
 }
 
-.formulario form .botones button {
+.main .opciones .contenedor-info .rojo {
+    color: #EB5757;
+}
+
+.main .opciones .contenedor-info .verde {
+    color: #219653;
+}
+
+.main .opciones .contenedor-option .Numb {
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.main .opciones .contenedor-info .info p span{
+    color: #DCDCDC;
+    font-size: 14px;
+}
+
+.main .opciones .contenedor-info .info p span:last-child {
+    color: #EB5757;
+}
+
+/* --- --- CONTENEDOR DETALLE --- --- */
+
+.main .opciones .contenedor-detalle {
+    background: #FEFEFE;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.main .opciones .contenedor-detalle p {
+    margin-bottom: 5px;
+    color: #9C9C9C;
+}
+
+.main .opciones .contenedor-detalle .barra-progreso {
+    margin-bottom: 15px;
+}
+
+/* --- --- COMENTARIOS --- --- */
+
+.contenedor-tabla {
+    margin-top: 20px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+td {
+    font-size: 14px;
+}
+
+.main .contenedor-tabla .title-table{
+    font-size: 14px;
+    text-align: center;
+}
+
+.main .contenedor-tabla .botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .contenedor-tabla .botones button {
     border: none;
     border-radius: 5px;
-    background: #2D9CDB;
-    color: #fefefe; 
-    width: 140px;
-    height: 40px;
+    padding: 5px;
+    color: #FEFEFE;
 }
 
-.formulario form .botones button:hover {
+.main .contenedor-tabla .botones .eliminar {
+    background: #EB5757;
+}
+
+.main .contenedor-tabla .botones .eliminar:hover {
+    background: #c74949;
+}
+
+.main .contenedor-tabla .botones .aceptar {
+    background: #2D9CDB;
+}
+
+.main .contenedor-tabla .botones .aceptar:hover {
     background: #3384A5;
 }
 
-.contenedor-resultados {
-   text-align: center;
-   margin-bottom: 20px;
-}
-
-.contenedor-resultados .img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.contenedor-resultados p {
-    color:#9C9C9C;
-    font-weight: 500;
-}
 
 /* --- --- MEDIAQUERY --- --- */
 
@@ -205,33 +269,6 @@ body {
     .barra-lateral .menu a i {
         margin-right: 0;
     }
-
-    /* --- AGREGAR FILTROS --- */
-
-    .formulario form .option {
-        flex-direction: column;
-    }
-
-    .formulario form .option {
-        flex-direction: column;
-    }
-
-    .formulario form .option input {
-        width: 100%;
-    }
-
-    .formulario form .option input[type="text"],
-    .formulario form .option select {
-        width: 100%;
-    }
-
-    .formulario form  .radio{
-        margin-top: 33px;
-    }
-
-    .formulario form .radio {
-        margin-bottom: 48px;
-    }
 }
 
 @media screen and (max-width: 765px) {
@@ -242,10 +279,6 @@ body {
 
     .main .contenedor .profile {
         display: none;
-    }
-
-    .formulario form .botones {
-        justify-content: center;
     }
 }
 
@@ -262,19 +295,5 @@ body {
 
     .barra-lateral .menu a {
         display: inline-block;
-    }
-
-    .formulario form .botones .aplicar-filtros {
-        width: 100%;
-    }
-
-    .contenedor-resultados .img {
-        width: 250px;
-        height: 200px;
-        margin: auto;
-    }
-    
-    .contenedor-resultados .img img {
-        width: 100%;
     }
 }

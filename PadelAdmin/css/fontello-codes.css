@@ -5,13 +5,23 @@
 .icon-home:before { content: '\2302'; } /* '⌂' */
 .icon-cog:before { content: '\2699'; } /* '⚙' */
 .icon-pencil:before { content: '\270e'; } /* '✎' */
+.icon-ok:before { content: '\2713'; } /* '✓' */
 .icon-eye:before { content: '\e013'; } /* '' */
 .icon-th-large-outline:before { content: '\e0f9'; } /* '' */
 .icon-th-list-outline:before { content: '\e0fb'; } /* '' */
 .icon-trash-empty:before { content: '\e729'; } /* '' */
 .icon-chart-pie:before { content: '\e751'; } /* '' */
+.icon-bold:before { content: '\e77a'; } /* '' */
+.icon-italic:before { content: '\e77b'; } /* '' */
+.icon-align-left:before { content: '\e77e'; } /* '' */
+.icon-align-center:before { content: '\e77f'; } /* '' */
+.icon-align-right:before { content: '\e780'; } /* '' */
 .icon-user:before { content: '\e807'; } /* '' */
 .icon-logout:before { content: '\e808'; } /* '' */
+.icon-list-bullet:before { content: '\f0ca'; } /* '' */
+.icon-list-numbered:before { content: '\f0cb'; } /* '' */
+.icon-money:before { content: '\f0d6'; } /* '' */
+.icon-unlink:before { content: '\f127'; } /* '' */
 .icon-dollar:before { content: '\f155'; } /* '' */
 .icon-sliders:before { content: '\f1de'; } /* '' */
 .icon-award:before { content: '🏉'; } /* '\1f3c9' */
@@ -21,3 +31,4 @@
 .icon-newspaper:before { content: '📰'; } /* '\1f4f0' */
 .icon-search:before { content: '🔍'; } /* '\1f50d' */
 .icon-bell:before { content: '🔔'; } /* '\1f514' */
+.icon-link:before { content: '🔗'; } /* '\1f517' */

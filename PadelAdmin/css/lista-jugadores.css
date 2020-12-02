@@ -224,10 +224,6 @@ td, thead {
     color: #EB5757;
 }
 
-.main .contenedor-table .td-verde {
-    color: #219653;
-}
-
 .main .contenedor-table .botones {
     display: flex;
     justify-content: space-around;
@@ -254,80 +250,6 @@ td, thead {
 
 .main .contenedor-table .botones .borrar:hover {
     background: #c74a4a;
-}
-
-/* --- ---- MODAL --- --- */
-
-.modal .modal-dialog .modal-content .modal-body .img-profile {
-    width: 80px;
-    height: 80px;
-    overflow:hidden;
-    border: 2px solid #9c9c9c;
-    border-radius: 100%;
-    margin: 0 auto;
-}
-
-.modal .modal-dialog .modal-content .modal-body .img-profile img {
-    width: 100%;
-}
-
-.modal .modal-dialog .modal-content .modal-body .texto {
-    text-align: center;
-}
-.modal .modal-dialog .modal-content .modal-body .texto p {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.modal .modal-dialog .modal-content .modal-body .texto p {
-    margin: 0;
-}
-.modal .modal-dialog .modal-content .modal-body .texto p:first-child {
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.modal .modal-dialog .modal-content .modal-body .total p:last-child{
-   color: #219653;
-   margin-left: 20px;
-   font-weight: 600;
-} 
-
-.modal .modal-dialog .modal-content .modal-body .pago p:last-child{
-   color: #2D9CDB;
-   margin-left: 20px;
-   font-weight: 600;
-} 
-
-.modal .modal-dialog .modal-content .modal-body .pendiente p:last-child{
-   color: #EB5757;
-   margin-left: 20px;
-   font-weight: 600;
-} 
-
-.modal .modal-dialog .modal-content .modal-body .botones .cerrar{
-   margin-right: 10px;
-   width: 120px;
-   height: 40px;
-   border: 2px solid #2D9CDB;
-   background: none;
-   color: #2D9CDB;
-}
-
-.modal .modal-dialog .modal-content .modal-body .botones .cerrar:hover {
-    color: #fefefe;
-    background: #2D9CDB;
-}
-
-.modal .modal-dialog .modal-content .modal-body .botones .aceptar {
-    background: #2D9CDB;
-    width: 120px;
-    height: 40px;
-}
-
-.modal .modal-dialog .modal-content .modal-body .botones .aceptar:hover {
-    background: #3384A5;
 }
 
 /* --- --- MEDIAQUERY --- --- */
