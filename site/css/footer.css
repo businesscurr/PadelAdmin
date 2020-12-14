@@ -1,0 +1,45 @@
+/* --- --- COLORS --- --- */
+/* --- --- #0D222A --- --- */
+/* --- --- #9C9C9C --- --- */
+/* --- --- #03080B --- --- */
+/* --- --- #FEFEFE --- --- */
+/* --- --- #A2D5E9 --- --- */
+/* --- --- #F0F2F5 --- --- */
+/* --- --- #DDDDDD --- --- */
+/* --- --- #F2C94C --- --- */
+/* --- --- #219653 --- --- */
+/* --- --- #1F5266 --- --- */
+/* --- --- #F2994A --- --- */
+/* --- --- #EB5757 --- --- */
+/* --- --- #3384A5 --- --- */
+/* --- --- #2D9CDB --- --- */
+
+.footer {
+    background: #1F5266;
+    color: #FEFEFE;
+}
+
+.footer a {
+    color: #FEFEFE;
+}
+
+.footer .footer-nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-line {
+    border: 1px solid #FEFEFE;
+    width: 100%;
+}
+
+.footer .footer-up {
+   min-height: 150px;
+}
+
+.footer .footer-down {
+    min-height: 150px;
+}
+

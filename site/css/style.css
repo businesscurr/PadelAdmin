@@ -1,0 +1,1368 @@
+/* --- --- COLORS --- --- */
+/* --- --- #0D222A --- --- */
+/* --- --- #9C9C9C --- --- */
+/* --- --- #03080B --- --- */
+/* --- --- #FEFEFE --- --- */
+/* --- --- #A2D5E9 --- --- */
+/* --- --- #F0F2F5 --- --- */
+/* --- --- #DDDDDD --- --- */
+/* --- --- #F2C94C --- --- */
+/* --- --- #219653 --- --- */
+/* --- --- #1F5266 --- --- */
+/* --- --- #F2994A --- --- */
+/* --- --- #EB5757 --- --- */
+/* --- --- #3384A5 --- --- */
+/* --- --- #2D9CDB --- --- */
+
+body {
+    background: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+/* --- --- COMPONENTES --- --- */
+
+.btn-padel-admin {
+    background: #2D9CDB;
+}
+
+.btn-padel-admin:hover {
+    background: #3384A5;
+}
+
+.verde {
+    color: #219653;
+}
+.naranja {
+    color: #F2994A;
+}
+
+.azul-prin {
+    color: #2D9CDB;
+}
+
+/* --- --- HEADER --- --- */
+
+.header-up-bg {
+    background: #03080B;
+}
+
+.header-up {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+}
+
+.header-up p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.header-up p a {
+    color: #FEFEFE;
+    text-decoration: underline;
+}
+
+.header-up p a:hover {
+    color: #2D9CDB;
+}
+
+.header-up .img-header-up a img {
+    margin-right: 15px;
+}
+
+.header-up .idioma select {
+    border: 2px solid #FEFEFE;
+    border-radius: 2px;
+    background: #03080B;
+    color: #FEFEFE;
+    width: 85px;
+}
+
+.header-down-bg {
+    background: #2D9CDB;
+}
+
+.navbar-nav .nav-link {
+    color: #03080B!important;
+}
+.navbar-nav .nav-link:hover {
+    color: #FEFEFE!important;
+}
+
+/* --- --- MAIN --- ---*/
+
+#inicio-sesion {
+    background: #FEFEFE;
+}
+
+#inicio-sesion .img-main {
+    max-height: 70vh;
+    overflow: hidden;
+}
+
+#inicio-sesion .img-main img {
+    width: 100%;
+    height: 100%;
+}
+
+#inicio-sesion .formulario {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio-sesion .formulario  h2{
+    color: #2D9CDB;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#inicio-sesion .formulario form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+#inicio-sesion .formulario form .grupo-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+#inicio-sesion .formulario form .text-area-form-contacto {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+#inicio-sesion .formulario form .text-area-form-contacto textarea{
+    border: 1px solid #9C9C9C;
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#inicio-sesion .formulario form .grupo-formulario input{
+    border: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #9C9C9C;
+}
+
+#inicio-sesion .formulario .boton {
+    margin-top: 15px;
+}
+
+#inicio-sesion .formulario .btn-enviar {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    width: 120px;
+}
+
+#inicio-sesion .formulario .btn-enviar:hover {
+    background: #3384A5 ;
+}
+
+#inicio-sesion .formulario .actions {
+    display: flex;
+    margin-top: 10px;
+}
+
+#inicio-sesion .formulario .actions .actions-group:last-child {
+    margin-left: 20px;
+}
+
+#inicio-sesion .formulario .actions .actions-group a {
+    color: #2D9CDB;
+    text-decoration: underline;
+}
+
+#inicio-sesion .formulario .actions .actions-group a:hover {
+    color: #3384A5;
+}
+
+
+/* -- --- OVERLAY --- --- */
+
+.overlay {
+    background: rgba(51, 132, 165, 0.6);
+    color: #FEFEFE;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+#inicio-sesion .overlay .img {
+    max-width: 380px;
+    margin: auto;
+}
+
+#inicio-sesion .overlay .parrafo {
+    justify-content: center;
+}
+
+#inicio-sesion .overlay .parrafo p {
+    font-size: 20px;
+}
+
+#inicio-sesion .overlay .overlay-rrss .overlay-rrss-link a img{
+    width: auto;
+}
+
+/* --- --- FOOTER --- --- */
+
+.footer {
+    background: #1F5266;
+    color: #FEFEFE;
+}
+
+.footer a {
+    color: #FEFEFE;
+}
+
+.footer .footer-nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-line {
+    border: 1px solid #FEFEFE;
+    width: 100%;
+}
+
+.footer .footer-up {
+   min-height: 150px;
+}
+
+.footer .footer-down {
+    min-height: 150px;
+}
+
+/* --- --- PARTNERS --- --- */
+
+.title-h2 {
+    display: inline-block;
+    border-bottom: 2px solid #2D9CDB;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+}  
+
+.title-h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    left: 0;
+    margin-top: 1px;
+    border-bottom: 1px solid #DCDCDC;
+    z-index: -1;
+}
+
+.partners {
+    background: #FEFEFE;
+    margin-bottom: 25PX;
+}
+
+.partners .img {
+    max-width: 140px;
+    max-height: 140px;
+    margin: auto;
+}
+
+.partners .img img {
+    width: 100%;
+}
+
+/* --- --- INICIO SESION --- --- */
+
+#inicio-sesion .formulario form .grupo-formulario-inicio-sesion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#inicio-sesion .formulario form .grupo-formulario-inicio-sesion input{
+    border: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #9C9C9C;
+}
+
+#inicio-sesion .formulario #form-inicio-sesion {
+    justify-content: space-around;
+    margin-top: 16px;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#inicio-sesion .formulario h2 .separacion-titulo-formulario,
+#inicio-sesion .formulario h2 .registrarse-titulo a{
+    color: #03080B;
+    font-size: 16px;
+}
+
+#inicio-sesion .formulario h2 .registrarse-titulo a{
+    font-weight: 400;
+}
+
+/* --- --- HOME --- --- */
+
+#home-hero img {
+    min-height: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#noticias-hero img {
+    min-height: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.overlay-home,
+.overlay-noticias {
+    background: rgba(3, 8, 11,0.7);
+    color: #FEFEFE;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+.overlay-home .row, .overlay-home .container {
+    height: 90%;
+}
+
+.overlay-home .overlay-info-home h4{
+    font-size: 24px;
+    margin: 0;
+}
+
+.overlay-home .overlay-info-home p{
+    font-size: 15px;
+}
+
+.overlay-home .overlay-bienvenido-home {
+    padding-top: 30px;
+}
+
+
+/* -- --- PRÓXIMOS EVENTOS --- --- */
+
+#proximos-eventos .card .card-body .proximos-eventos-title {
+    text-align: center;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title .card-title {
+    margin: 0;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title i {
+    color: #F2C94C;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title .icon-star {
+    color: #DCDCDC;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-info .card-text{
+    margin: 0;
+}
+
+#proximos-eventos .card .card-body .boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#proximos-eventos .card .card-body .boton button{
+    color: #FEFEFE;
+    width: 70%;
+    background: #2D9CDB;
+}
+
+/* --- --- WIDGETS - BARRA LATERAL --- --- */
+
+.widget {
+    margin-top: -5px;
+}
+
+.barra-widgets .widget-title h2,
+.barra-widgets .widget-title a{
+    font-size: 14px;
+}
+
+.barra-widgets {
+    border: 1px solid #2D9CDB;
+    margin-top: 15px;
+}
+
+.barra-widgets .widget-title a {
+    margin-top: 24px;
+}
+
+
+.barra-widgets .widget-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-widget-img {
+    overflow: hidden;
+    max-height: 70px;
+    max-width: 85px;
+    padding: 5px;
+}
+
+
+.col-widget-img .img-fotos-recientes {
+    width: 100%;
+    height: 100%;
+}
+
+.col-widget-img img{
+    width: 100%;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people {
+    border-bottom: 1px solid #9C9C9C;
+    padding: 5px;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people:first-child {
+    border-top: 1px solid #9C9C9C;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people a {
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people a:hover {
+    color: #3384A5;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .img-widget-ranking-people {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .img-widget-ranking-people img {
+    width: 100%;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people,
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people .jugador-widget-ranking-people {
+    display: flex;
+    align-items: center;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people {
+    justify-content: space-around;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people .widget-ranking-name{
+    margin-left: 7px;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido img {
+    width: 100%;
+}
+
+.barra-widgets .widget-proximo-partido p {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.barra-widgets .widget-proximo-partido .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barra-widgets .widget-proximo-partido .info  .horario-widget-proximo-partido {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.barra-widgets .contenedor-jugadores-widget-proximo-partido {
+    margin-top: 5px;
+}
+
+.barra-widgets .boton-widget {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.barra-widgets .widget-poster .img-widget-poster{
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.barra-widgets .widget-poster .img-widget-poster img{
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia {
+    margin-bottom: 15px;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia {
+    max-width: 80px;
+    height: 100%;
+    margin-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia img{
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia {
+    display: flex;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-noticia-asunto a {
+    font-size: 12px;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-noticia-asunto a:last-child {
+    margin-top: 5px;
+    color: #03080B;
+}
+
+/* --- --- ÚLTIMAS NOTICIAS --- --- */
+
+#ultimas-noticias .card,
+#proximos-eventos .card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#ultimas-noticias .card .card-body,
+#proximos-eventos .card .card-body {
+    padding: 10px;
+}
+
+#ultimas-noticias .card .card-body .card-title,
+#ultimas-noticias .card .card-body .card-text  {
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+#ultimas-noticias .card .card-body .card-title:hover,
+#ultimas-noticias .card .card-body .card-text:hover  {
+    color: #3384A5;
+}
+
+#ultimas-noticias .card .card-body p span {
+    color: #9C9C9C;
+}
+
+#fotos-recientes .img-principal-fotos-recientes,
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#fotos-recientes .img-principal-fotos-recientes img,
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes img {
+    width: 100%;
+}
+
+#fotos-recientes .img-principal-fotos-recientes {
+    max-height: 480px;
+}
+
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
+    max-height: 155px;
+}
+
+/* --- --- PERFIL --- --- */
+
+.perfil-button,
+.contraseña-button {
+    border: 1px solid #2D9CDB;
+    border-radius: 5px;
+    background:none;
+    width: 100%;
+    height: 60px;
+    color: #03080B;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.perfil-button {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.perfil .collapse .card-body .foto-perfil {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.perfil .collapse .card-body .foto-perfil img {
+    width: 100%;
+}
+
+.perfil .collapse .card-body p {
+    text-align: center;
+    color: #9C9C9C;
+}
+
+.perfil .collapse .card-body p span {
+    color: #2D9CDB;
+    font-size: 20px;
+}
+
+.perfil .collapse .card-body form,
+.contraseña .collapse .card-body form {
+    margin: auto;
+}
+
+.perfil .collapse .card-body form .contenedor-formulario,
+.contraseña .collapse .card-body form .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil .collapse .card-body form input,
+.perfil .collapse .card-body form select,
+.contraseña .collapse .card-body form input {
+    border: 1px solid #2D9CDB;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.perfil .collapse .card-body form .button,
+#contraseña .card form .button {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil .collapse .card-body form .button button,
+#contraseña .card form .button .guardar {
+    border: none;
+    border-radius: 5px;
+    background: #2D9CDB;
+    color: #fefefe;
+    width: 60%;
+}
+
+.perfil .collapse .card-body form .button button:hover,
+#contraseña .card form .button .guardar:hover  {
+    background: #3384A5;
+}
+
+/* --- --- HEAD TO HEAD --- --- */
+
+.container-head-to-head {
+    background: #FEFEFE;
+    padding: 20px;
+}
+
+.container-head-to-head .img-person-head-to-head {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.container-head-to-head .img-person-head-to-head img{
+   width: 100%;
+}
+
+.container-head-to-head .info-jugadores-head-to-head p {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.container-head-to-head .info-title-head-to-head {
+    font-weight: 500;
+}
+
+#head-to-head h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#head-to-head .comparar-jugadores input{
+    border: none;
+    border-bottom: 3px solid #2D9CDB;
+    background: #FEFEFE;
+    padding: 5px;
+    width: 100%;
+    max-width: 360px;
+}
+
+#head-to-head .vs-head-to-head {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#head-to-head .boton-head-to-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#head-to-head .boton-head-to-head .btn-head-to-head {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+/* --- --- PERFIL JUGADOR --- --- */
+
+#perfil-jugador .contenedor-perfil-jugador-info {
+    background: #FEFEFE;
+    padding: 20px;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .img-perfil-jugador {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador p{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador:first-child p{
+    font-weight: 500;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador  .pais-perfil-jugador {
+    display: flex;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador  .pais-perfil-jugador p{
+    margin-bottom: 9px;
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .ranking-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .ranking-number {
+    font-size: 64px;
+    color: #219653;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .rrss-perfil-jugador a,
+#perfil-jugador .contenedor-dirreccion-y-rrss-club .rrss-perfil-jugador  a {
+    border: 1px solid #2D9CDB;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#perfil-jugador .boton .boton-biografia-perfil-jugador {
+    border: 1px solid #2D9CDB;
+    color: #2D9CDB;
+}
+
+#perfil-jugador .boton .boton-biografia-perfil-jugador:hover {
+    color: #FEFEFE;
+    background: #2D9CDB;
+}
+
+#perfil-jugador .boton {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+/* --- --- COMENTARIOS --- --- */
+
+.comentar .profile-comentario {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.comentar .profile-comentario .img-profile-comentario{
+    border-radius: 15px;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.comentar .profile-comentario .img-profile-comentario img{
+    width: 100%;
+}
+
+.comentar .profile-comentario .info-profile-comentario p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.comentar .profile-comentario .info-profile-comentario p:last-child {
+    color: #9C9C9C;
+}
+
+.comentar .contenedor-comentario textarea,
+.comentar .contenedor-comentario .comentario{
+    border: 1px solid #2D9CDB;
+    background: none;
+    width: 100%;
+    min-height: 100px ;
+    max-height: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.comentar .boton-comentarios,
+.comentar .boton-responder {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.comentar .boton-comentarios button{
+   background: #2D9CDB;
+   color: #FEFEFE;
+}
+
+.comentar .boton-comentarios button:hover{
+    background: #3384A5;
+ }
+
+ /* --- --- DETALLES CLUB --- --- */
+
+.contenedor-dirreccion-y-rrss-club .img-direccion-club {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.contenedor-dirreccion-y-rrss-club .img-direccion-club img {
+    width: 100%;
+}
+
+/* --- --- ARTÍCULO --- --- */
+
+.img-principal-articulo {
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-height: 60vh;
+    overflow: hidden;
+}
+
+.img-principal-articulo img {
+    width: 100%;
+}
+
+.contenido-articulo h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0D222A;
+    margin-bottom: 15px;
+}
+
+.contenido-articulo p {
+    font-size: 16px;
+}
+
+.contenedor-compartir-rrss-articulo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contenedor-compartir-rrss-articulo a {
+    border: 1px solid #2D9CDB;
+    border-radius: 5px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+/* --- --- LISTA JUGADORES / CLUB / RANKING --- --- */
+
+#table-lista-jugadores .contenedor-table-lista-jugadores {
+    overflow: hidden;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores thead {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores thead tr th,
+#table-lista-jugadores .contenedor-table-lista-jugadores tbody tr td {
+    font-size: 14px;
+    text-align: center;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores .img-table-lista {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores .img-table-lista img{
+    width: 100%;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-jugador,
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-club {
+    display: flex;
+    align-items: center;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-jugador p,
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-club p {
+    margin: 0;
+}
+
+.contenedor-filtro-busqueda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .filtros {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .filtros .opcion-filtros button{
+    color: #03080B;
+}
+
+.contenedor-filtro-busqueda .filtros .opcion-filtros button:hover{
+    color: #FEFEFE;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados {
+    margin-left: 5px;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    color: #FEFEFE;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro:first-child {
+    background: #2D9CDB;
+    border-color: #2D9CDB;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro:last-child{
+    background: #F2994A;
+    border-color: #F2994A;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .busqueda input[type="search"] {
+    border: 1px solid #9C9C9C;
+    border-radius: 15px;
+    background: none;
+    width: 250px;
+    padding: 5px;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .cambio-lista .btn-cambio-lista {
+    color: #2D9CDB;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .cambio-lista .btn-cambio-lista:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.botones-lista-ranking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-list-ranking {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    width: 48%;
+    height: 50px;
+}
+
+/* --- --- CARD JUGADORES / CLUBES--- --- */
+
+#container-card-jugadores .card-jugador {
+    width: 100%;
+    max-width: 440px;
+    min-height: 144px;
+    max-height: 144px;
+    overflow: hidden;
+    display: flex;
+    background: #FEFEFE;
+}
+
+#container-card-jugadores .card-jugador .img-card-jugador {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container-card-jugadores .card-jugador .img-card-jugador img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador {
+    width: 50%;
+    padding: 10px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador p{
+    margin: 0;
+    font-size: 12px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .nombre-categoria-info-principal-card-jugador p:first-child,
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .ranking-info-principal-card-jugador p:last-child {
+    font-size: 16px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .ranking-info-principal-card-jugador {
+    text-align: center;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-secundario-card-jugador p{
+    font-weight: 600;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-secundario-card-jugador p span {
+    font-weight: normal;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores .btn-card-jugadores{
+    border: 1px solid #2D9CDB;
+    color: #2D9CDB;
+    padding: 3px 15px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores .btn-card-jugadores:hover{
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+#container-card-jugadores .card-jugador .rrss-card-jugadores {
+    border-left: 1px solid #2D9CDB;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+#container-card-jugadores .card-jugador .rrss-card-jugadores .rrss-card-jugadores-img {
+    border-bottom: 1px solid #2D9CDB;
+    width: 100%;
+    height: 33.33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#container-card-jugadores .card-jugador .rrss-card-jugadores .rrss-card-jugadores-img:last-child {
+    border-bottom: none;
+}
+
+/* --- --- CALENDARIO --- --- */
+
+.table-calendario .img-calendario{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.table-calendario .img-calendario img {
+    width: 100%;
+}
+
+.table-calendario tr td p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.table-calendario .btn-calendario {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.table-calendario .btn-calendario:hover {
+    background: #3384A5;
+}
+
+.card-calendario {
+    background: #D9EEF6;
+}
+
+.btn-card-header {
+    color: #FEFEFE;
+}
+
+/* --- --- PRÓXIMOS PARTIDOS --- --- */
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido img {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.td-jugadores-proximos-partidos  {
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+}
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido {
+    display: flex;
+    align-items: center;
+}
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido p,
+.td-jugadores-proximos-partidos .vs-proximos-partidos{
+   margin: 0;
+}
+
+.td-jugadores-proximos-partidos .vs-proximos-partidos {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.table-proximos-partidos td,
+.table-proximos-partidos th {
+    font-size: 14px;
+    text-align: center;
+}
+
+.doble-jugadores-proximos-partidos .jugador-proximo-partido img {
+    margin-right: -6px;
+}
+
+.card-proximos-partidos {
+    background: #2D9CDB;
+}
+
+.card-proximos-partidos .btn-card-header {
+    color: #FEFEFE;
+}
+
+/* --- --- RESULTADO PARTIDO --- --- */
+
+.td-partido-resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-partido-resultado .img-jugador-partido-resultado {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 45px;
+    max-height: 45px;
+    overflow: hidden;
+}
+
+
+.td-partido-resultado .img-jugador-partido-resultado img {
+    width: 100%;
+}
+
+.table-partido-resultado td,
+.table-partido-resultado th {
+    font-size: 14px;
+    text-align: center;
+}
+
+.title-h2-partido-resultados {
+    margin-top: 25px;
+}
+
+.container-resultado-del-partido {
+    background: #FEFEFE;
+}
+
+.container-resultado-del-partido .cacilla-resultado-partido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #DCDCDC;
+    padding: 10px;
+}
+
+/* --- --- MEDIAQUERY --- --- */
+
+@media screen and (max-width: 1199px) {
+    .barra-widgets .widget-poster {
+        margin-bottom: 20px;
+    }
+
+    
+    #container-card-jugadores .card-jugador .info-card-jugador {
+        width: 60%;
+    }
+
+    #container-card-jugadores .card-jugador {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #inicio-sesion .formulario {
+        max-width: 500px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #fotos-recientes .img-principal-fotos-recientes {
+        max-height: 350px;
+    }
+
+    #fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
+        max-height: 111px;
+    }
+
+    .container-head-to-head .container-info-jugadores-head-to-head {
+        order: 1;
+        margin-top: 20px;
+    } 
+
+    .contenedor-filtro-busqueda {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedor-filtro-busqueda .filtros{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header-up .img-header-up a img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
