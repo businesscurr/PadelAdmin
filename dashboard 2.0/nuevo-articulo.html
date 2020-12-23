@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Nuevo Artículo</title>
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">
+    <img src="./img/Logotipo.png" alt="Logotipo Padel Admin" style="width: 150px;">
+  </a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-newspaper"></i>
+              Noticias
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-pie"></i>
+              Resultados
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-calendar"></i>
+              Calendario
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-bar"></i>
+              Ranking
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-cog"></i>
+              Gestión
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-user"></i>
+              Perfil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-logout"></i>
+              Cerrar Sesión
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4  contenedor-main-dashboard">
+      
+      <div class="header-up">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Noticias</a></li>
+            <li class="breadcrumb-item"><a href="#">Artículos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Agregar</li>
+          </ol>
+        </nav>
+        <div class="more-option-profile">
+          <div class="search-notification-profile">
+            <i class="icon icon-search"></i>
+            <i class="icon icon-bell"></i>
+          </div>
+          <span>|</span>
+          <div class="name-user-profile">
+            <a href="#">Admin Name</a>
+            <div class="img-user-profile">
+              <img src="./img/Foto 2.jpg" alt="Foto de perfil">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="title-h2 ml-md-2 mt-0 mb-3">Nuevo Artículo</h2>
+
+      <div class="row nuevo-articulo">
+          <div class="col-12 col-lg-8">
+            <input type="text" placeholder="Título del artículo" class="input-title-articulo">
+            <p class="link-article" >Link: <a href="#">https://sitesport.com/nombre-articulo</a></p>
+            <div class="contenedor-articulo-nuevo">
+                <div class="opciones-articulo-nuevo">
+                    <select name="" id="">
+                        <option value="#">Título</option>
+                    </select>
+                    <button>
+                        <i class="icon icon-bold"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-italic"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-align-left"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-align-center"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-align-right"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-link"></i>
+                    </button>
+                    <button>
+                        <i class="icon icon-unlink"></i>
+                    </button>
+                </div>
+                <textarea name="" id=""></textarea>
+            </div>
+          </div>
+          <div class="col-12 col col-lg-4 contenedor-widgets">
+              <div class="widget-nuevo-articulo">
+                  <div class="titulo-nuevo-articulo">
+                      <p class="mb-0">Imagen Principal</p>
+                  </div>
+                  <div class="img-imagen-principal-nvArticulo">
+                      <img src="./img/widget-img-principal.jpg" alt="">
+                  </div>
+                  <div class="boton-nueva-imagen">
+                    <button>
+                        Editar
+                    </button>
+                  </div>
+              </div>
+              <div class="widget-nuevo-articulo">
+                  <div class="titulo-nuevo-articulo">
+                      <p class="mb-0">Publicar</p>
+                  </div>
+                  <form action="" class="widget-form">
+                      <div class="grupo-form">
+                          <label for="fecha-desde">Desde:</label>
+                          <input type="date" id>
+                          <button class="btn-editar-form-widget">
+                            Editar
+                        </button>
+                      </div>
+                      <div class="grupo-form">
+                          <label for="fecha-desde">Hasta:</label>
+                          <input type="date">
+                          <button class="btn-editar-form-widget">
+                            Editar
+                        </button>
+                      </div>
+                      <div class="grupo-form mt-2">
+                        <label for="visible" >Visible:</label>
+                        <input type="checkbox" id="visible">
+                      </div>
+                      <div class="grupo-form">
+                        <div class="checkbox2">
+                            <p>Publicar en:</p>
+                            <input type="checkbox" id="facebook" value="fb">
+                            <label for="facebook" class="label-checkbox">Facebook</label>
+                            <input type="checkbox" id="web" value="wb">
+                            <label for="web" class="label-checkbox">Web</label>
+                        </div>
+                    </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+
+    <script src="./js/elementsnss.bundle.min.js.map"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
+
