@@ -1,1 +1,1390 @@
+/* --- --- COLORS --- --- */
+/* --- --- #0D222A --- --- */
+/* --- --- #9C9C9C --- --- */
+/* --- --- #03080B --- --- */
+/* --- --- #FEFEFE --- --- */
+/* --- --- #A2D5E9 --- --- */
+/* --- --- #F0F2F5 --- --- */
+/* --- --- #DDDDDD --- --- */
+/* --- --- #F2C94C --- --- */
+/* --- --- #219653 --- --- */ 
+/* --- --- #1F5266 --- --- */
+/* --- --- #F2994A --- --- */
+/* --- --- #EB5757 --- --- */
+/* --- --- #3384A5 --- --- */
+/* --- --- #2D9CDB --- --- */
 
+body {
+    background: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.ms-sm-auto {
+    margin-left: auto !important;
+}
+
+.px-md-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+/* --- --- LOGIN --- --- */
+
+.logotipo-login {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contenedor-login {
+    border: none;
+    margin: auto;
+    max-width: 500px;
+}
+
+.contenedor-login form .form-group input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #1F5266;
+    padding-left: 0;
+}
+
+.contenedor-login form .form-group label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    border: #2D9CDB;
+    background: #2D9CDB;
+    padding: 10px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    border: #1F5266;
+    background: #1F5266;
+} 
+
+.contenedor-login .opciones-login {
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contenedor-login .recuperar-contraseña {
+    color: #2D9CDB;
+    cursor: pointer;
+}
+
+/* --- --- PERFIL --- ---*/
+
+.card-header{
+    border: 1px solid #2D9CDB;
+    background: #F0F2F5;
+}
+
+.btn-link {
+    color: #03080B;
+}
+
+.breadcrumb {
+    background-color: #F0F2F5;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.img-profile-perfil {
+    border: 1px solid #9c9c9c;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.img-profile-perfil img{
+    width: 100%;
+}
+
+.info-img-profile-perfil {
+    text-align: center;
+    margin: 0;
+    color: #9C9C9C;
+}
+
+.info-img-profile-perfil p small span{
+    color: #2D9CDB;
+    font-size: 18px;
+}
+
+.form-perfil .form-group {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.form-perfil .form-group input,
+.form-perfil .form-group select {
+    border: 1px solid #2D9CDB;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.header-up .more-option-profile,
+.header-up .more-option-profile .name-user-profile  {
+    display: flex;
+    align-items: center;
+}
+
+.header-up .more-option-profile p{
+    margin-bottom: 0;
+}
+
+.header-up .more-option-profile .name-user-profile a {
+    color: #03080B;
+}
+
+.header-up .more-option-profile .name-user-profile .img-user-profile {
+    border: 1px solid #2D9CDB;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.header-up .more-option-profile .name-user-profile .img-user-profile img {
+    width: 100%;
+}
+
+.header-up .more-option-profile .search-notification-profile {
+    color: #2D9CDB;
+    font-weight: 300;
+}
+
+.header-up .more-option-profile span{
+    color: #2D9CDB;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+/* --- --- FILTROS --- ---*/
+
+.header-up .breadcrumb li a {
+    color: #2D9CDB;
+}
+
+.contenedor-filtros {
+    border-radius: 15px;
+    background: #FEFEFE;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.boton-filtros {
+    justify-content: end;
+}
+
+.title-filtro {
+    display: flex;
+    align-items: center;
+    color: #2D9CDB;
+    margin-bottom: 15px;
+}
+
+.title-filtro p {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.contenedor-filtros-resultados {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.contenedor-filtros-resultados .img-sin-filtros {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contenedor-filtros-resultados p {
+    margin-top: 5px;
+    color: #9C9C9C;
+}
+
+/* --- --- OPCIONES DASHBOARD --- --- */
+
+.opciones-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opciones-dashboard .opciones-dashboard-filtros .btn-filtros-dashboard {
+    border: 1px solid #2D9CDB;
+    font-size: 14px;
+}
+
+.opciones-dashboard .opciones-dashboard-filtros .btn-filtros-dashboard:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.opciones-dashboard .opciones-dashboard-search-agregar {
+    display: flex;
+    align-items: center;
+}
+
+.opciones-dashboard .opciones-dashboard-search-agregar input[type="search"] {
+    border: 1px solid #9C9C9C;
+    border-radius: 5px;
+    background: none;
+    padding: 5px;
+}
+
+.opciones-dashboard .opciones-dashboard-search-agregar .btn-agregar-dasboard {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.opciones-dashboard .opciones-dashboard-search-agregar .btn-agregar-dasboard .plus {
+    display: none;
+}
+
+.title-h2 {
+    display: inline-block;
+    border-bottom: 2px solid #2D9CDB;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+}  
+
+.title-h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    left: 0;
+    margin-top: 1px;
+    border-bottom: 1px solid #DCDCDC;
+    z-index: -1;
+}
+
+/* --- --- LISTA --- --- */
+
+.lista-jugador .img-lista-jugador {
+    border: 1px solid #DCDCDC;
+    border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.lista-jugador p {
+    color: #2D9CDB;
+}
+
+.lista-jugador .img-lista-jugador img {
+    width: 100%;
+}
+
+table tr td,
+table tr th {
+    font-size: 14px;
+    text-align: center;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.botones-lista .lista-btn-editar {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    margin-right: 12px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.botones-lista .lista-btn-editar:hover {
+    background: #3384A5;
+}
+
+.botones-lista .lista-btn-eliminar {
+    background: #EB5757;
+    color: #FEFEFE;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.botones-lista .lista-btn-eliminar:hover {
+    background: #e23939;
+}
+
+thead {
+    background:#CDCDCD;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+/* --- --- MODAL --- --- */
+
+.HeaderModalAggPartidos {
+    text-align: center;
+    width: 100%;
+}
+
+.HeaderModalAggPartidos h5 {
+    color: #2D9CDB;
+}
+
+.HeaderModalAggPartidos p {
+    color: #9C9C9C;
+}
+
+.Modal-Equipo-Jugadores .Modal-Jugador .img-modal-equipo-jugadores {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 50x;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.Modal-Equipo-Jugadores .Modal-Jugador .img-modal-equipo-jugadores img {
+    width: 100%;
+}
+
+.ModalJugador-Resultados {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalJugador-Resultados .resultados-modal {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ModalJugador-Resultados .resultados-modal input {
+    border: 1px solid #9C9C9C;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.ModalJugador-Resultados .resultados-modal input:first-child {
+    border-right: 0px;
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+}
+
+.ModalJugador-Resultados .resultados-modal input:last-child {
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+}
+
+.btn-modal-cancelar {
+    border: 1px solid #2D9CDB;
+    color: #2D9CDB;
+}
+
+.btn-modal-cancelar:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.btn-modal-publicar {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.btn-modal-publicar:hover {
+    background: #3384A5;
+    color: #FEFEFE;
+}
+
+.opciones-modal-pago-lista-input {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.opciones-modal-pago-lista-input .input-modal-pago-lista {
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    color: #9C9C9C;
+    padding: 2px;
+    width: 50%;
+}
+
+.contenedor-opciones-modal-pago-lista {
+    width: 80%;
+    margin: auto;
+}
+
+.opciones-modal-pago-lista {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.opciones-modal-pago-lista p {
+    margin-right: 20px;
+}
+
+.jugador-modal-pago-lista {
+    width: 100%;
+}
+
+.img-modal-pago-lista {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-modal-pago-lista img {
+    width: 100%;
+}
+
+/* --- --- GESTIÓN --- --- */
+
+.card-body-style {
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #9C9C9C;
+    text-align: center;
+}
+
+.img-card-gestion {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.img-card-gestion img {
+    width: 100%;
+}
+
+.img-card-gestion .dollar {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.card-body-gestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones-opciones-card-gestion {
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones-card-gestion .info-opciones-card-gestion {
+    text-align: center;
+}
+
+.opciones-card-gestion .info-opciones-card-gestion .info-opciones-card-number {
+    font-size: 14px;
+}
+
+.opciones-card-gestion .info-opciones-card-gestion .info-opciones-card-number {
+    color: #2D9CDB;
+    font-size: 18px;
+}
+
+.botones-opciones-card-gestion button {
+    color: #FEFEFE;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.botones-opciones-card-gestion .btn-card-gestion-agregar {
+    background: #219653;
+    margin-bottom: 10px;
+}
+
+.botones-opciones-card-gestion .btn-card-gestion-ver {
+    background: #2D9CDB;
+}
+
+.contenedor-cards {
+    display: flex;
+    justify-content: center;
+}    
+
+.principal-info-card {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.blue {
+    color: #2D9CDB;
+}
+
+.red {
+    color: #EB5757 !important;
+}
+
+.contenedor-detalle {
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    background: #FEFEFE;
+    margin-top: 20px;
+}
+
+.info-detalle {
+    margin-bottom: 15px;
+}
+
+.info-detalle:last-child {
+    margin-bottom: 0;
+}
+
+.info-detalle p {
+    margin-bottom: 5px;
+    color: #9C9C9C;
+}
+
+.input-title-articulo {
+    border: 1px solid #9C9C9C;
+    border-radius: 5PX;
+    background: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.nuevo-articulo .link-article {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.nuevo-articulo .contenedor-articulo-nuevo {
+    background: #FEFEFE;
+    margin-bottom: 20px;
+}
+
+.nuevo-articulo .contenedor-articulo-nuevo .opciones-articulo-nuevo {
+    background: #D9E2E7;
+    padding: 10px;
+}
+
+.nuevo-articulo .contenedor-articulo-nuevo .opciones-articulo-nuevo select {
+    border: 1px solid #9C9C9C;
+    background: none;
+    width: 120px;
+}
+
+.nuevo-articulo .contenedor-articulo-nuevo .opciones-articulo-nuevo button {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.nuevo-articulo .contenedor-articulo-nuevo textarea {
+    border: 0px;
+    width: 100%;
+    min-height: 300px;
+    padding: 15px;
+}
+
+.widget-nuevo-articulo {
+    background: #FEFEFE;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.widget-nuevo-articulo .titulo-nuevo-articulo {
+    padding: 10px;
+    background: #D9E2E7;
+}
+
+.widget-nuevo-articulo .img-imagen-principal-nvArticulo {
+    width: 90%;
+    height: 140px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.widget-nuevo-articulo .img-imagen-principal-nvArticulo img {
+    width: 100%;
+}
+
+.boton-nueva-imagen {
+    width: 90%;
+    margin: auto;
+}
+
+.boton-nueva-imagen button {
+    border: 0;
+    background: none;
+    padding: 0;
+    color: #2D9CDB;
+    text-decoration: underline;
+}
+
+.boton-nueva-imagen button:hover {
+    color: #3384A5;
+}
+
+.grupo-form {
+    font-size: 14px;
+}
+
+.widget-form {
+    padding: 10px;
+}
+
+.grupo-form input[type="date"] {
+    border: none;
+    font-size: 12px;
+}
+
+.grupo-form button {
+    background: none;
+    border: none;
+    color: #2D9CDB;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 12px;
+}
+
+form .grupo-form .checkbox,
+form .grupo-form .checkbox2 {
+    display: flex;
+}
+
+form .grupo-form .checkbox label,
+form .grupo-form .checkbox2 p,
+form .grupo-form .checkbox2 label{
+    margin-bottom: 0;
+}
+
+form .grupo-form .checkbox input[type="checkbox"],
+form .grupo-form .checkbox2 input[type="checkbox"]{
+    display: none;
+}
+
+form .grupo-form .checkbox label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+form .grupo-form .checkbox label::before {
+    content: "";
+    border: solid 1px #2D9CDB;
+    border-radius: 3px;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    right: 0px;
+    top: 0.3em;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
+
+form .grupo-form .checkbox2 label {
+    border: 1px solid #2D9CDB;
+    border-radius: 3px;
+    padding: 2px;
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+form .grupo-form .checkbox2 label:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+form .grupo-form .checkbox2 input[type="checkbox"]:checked + label {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+/* --- --- CARD --- --- */
+
+.info-opciones-card-gestion .info-opciones-card-title {
+    color: #9C9C9C;
+    font-size: 14px;
+}
+
+/* --- --- CÍRCULO PROGRESO --- --- */
+
+.contenedor-circulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.circulo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.circulo .inner-circulo, .circulo .outer-circulo, .circulo .circulo{
+    position: absolute;
+    z-index: 6;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.circulo .inner-circulo{
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background-color: #FEFEFE;
+    border-radius: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.circulo .circulo{
+    z-index: 1;
+    box-shadow: none;
+}
+
+.circulo .numb-circulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-size: 18px;
+    font-weight: 500;
+    color: #03080B;
+}
+
+.circulo .barra{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #eeecec;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+.circulo .barra .progreso{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+}
+
+.circulo .barra .progreso, .dot span{
+    background: #2D9CDB;
+}
+
+.circulo .izquierda .progreso{
+    z-index: 1;
+    animation: left 4s linear both;
+}
+
+@keyframes left {
+    100%{
+      transform: rotate(180deg);
+    }
+}
+
+.circulo .derecha{
+    z-index: 3;
+    transform: rotate(180deg);
+}
+
+.circulo .derecha .progreso{
+    animation: right 4s linear both;
+    animation-delay: 4s;
+}
+
+@keyframes right {
+    100%{
+      transform: rotate(180deg);
+    }
+}
+
+.circulo .dot{
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    height: 10px;
+    margin-top: -5px;
+    animation: dot 8s linear both;
+    transform-origin: 0% 50%;
+}
+
+.circulo .dot span {
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+@keyframes dot{
+    0% {
+      transform: rotate(-90deg);
+    }
+    50% {
+      transform: rotate(90deg);
+      z-index: 4;
+    }
+    100% {
+      transform: rotate(270deg);
+      z-index: 4;
+    }
+}
+
+
+/* --- --- CARD JUGADORES --- --- */
+
+.img-card-jugador {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 90px;
+    max-width: 90px;
+    min-height: 90px;
+    max-height: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.img-card-jugador img {
+    width: 100%;
+}
+
+.info-principal-card-jugador {
+    text-align: center;
+}
+
+.info-principal-card-jugador  h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.info-principal-card-jugador a {
+    color: #2D9CDB;
+}
+
+.info-principal-card-jugador p {
+    color: #9C9C9C;
+}
+
+.info-card-jugador {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.info-card-jugador p:last-child {
+    font-size: 18px;
+}
+
+.botones-card-jugadores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.botones-card-jugadores button {
+    width: 45%;
+    font-size: 14px;
+}
+
+.botones-card-jugadores .btn-contactar-card-jugadores {
+    border: 1px solid #2D9CDB;
+    color: #2D9CDB;
+}
+
+.botones-card-jugadores .btn-contactar-card-jugadores:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.botones-card-jugadores .btn-ver-perfil-card-jugadores {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.botones-card-jugadores .btn-ver-perfil-card-jugadores:hover {
+    background: #3384A5;
+}
+
+
+/* --- --- FICHA JUGADORES --- --- */
+
+.contenedor-button-info-jugadores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-info-jugadores {
+    width: 31.5%;
+    background: #FEFEFE;
+    border: 1px solid #DCDCDC;
+    color: #9C9C9C;
+    padding: 10px;
+}
+
+.info-torneos-ficha-jugadores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.info-torneos-ficha-jugadores p {
+    font-size: 14px;
+}
+
+.info-torneos-ficha-jugadores .title-info-torneos-ficha {
+    font-size: 14px;
+    font-weight: 500;
+} 
+
+.info-complementaria-ficha-jugadores {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.info-complementaria-ficha-jugadores:first-child {
+    border-top: 1px solid #DCDCDC;
+}
+
+.contenedor-principal-ficha-jugadores {
+    background: #FEFEFE;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.img-perfil-ficha-jugador {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    min-width: 130px;
+    max-width: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    overflow: hidden;
+}
+
+.img-perfil-ficha-jugador  img {
+    width: 100%;
+}
+
+.img-button-principal-ficha-jugadores {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-ficha-jugador {
+    padding: 6px;
+    font-size: 14px;
+    width: auto;
+}
+
+.title-h2-ficha-jugador {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.subtitle-ficha-jugador {
+    color: #2D9CDB;
+    font-size: 14px;
+}
+
+.info-principal-ficha-jugadores p {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.title-ranking-ficha-jugadores {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.number-ranking-ficha-jugadores {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    color: #219653;
+    margin-bottom: 10px;
+}
+
+.line-ficha-jugador {
+    width: 100%;
+    border: 1px solid #DCDCDC;
+}
+
+.info-secundario-ficha-jugadores {
+    text-align: center;
+}
+
+.title-info-secundario-ficha-jugadores {
+    color: #9C9C9C;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.green {
+    color: #219653 !important;
+}
+
+.subtitle-info-secundario-ficha-jugadores {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.img-location-ficha-jugadores {
+    border-radius: 15px;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.img-location-ficha-jugadores img {
+    width: 100%;
+}
+
+.rrss-ficha-jugadores {
+    display: flex;
+    justify-content: center;
+}
+
+.rrss-ficha-jugadores .contenedor-rrss-ficha-jugadores {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2D9CDB;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 10px 12px;
+}
+
+.rrss-ficha-jugadores .contenedor-rrss-ficha-jugadores img {
+    width: 16px;
+    height: 16px;
+}
+
+.botones-lista-ficha-jugadores {
+    display: flex;
+}
+
+.botones-lista-ficha-jugadores .boton-lista-fj {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background: #DCDCDC;    
+}
+
+.botones-lista-ficha-jugadores .boton-lista-fj:hover {
+    background: #9C9C9C;
+}
+
+.card-header-ficha-jugadores {
+    background: #FEFEFE;
+}
+
+.contenedor-puntos label {
+    color: #9C9C9C;
+}
+
+.contenedor-puntos input {
+    border: 1px solid #9C9C9C;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40px;
+    height: 25px;
+    font-size: 13px;
+}
+
+
+form .puntos {
+    display: flex;
+}
+
+form .puntos .puntos-title {
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+form .puntos .rondas {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form .puntos .rondas label {
+    color: #9D9D9D;
+}
+
+form .puntos .rondas input[type="text"] {
+    width: 50px;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+}
+
+.btn-outline {
+    border: 1px solid #2D9CDB;
+    background: none;
+    color: #2D9CDB;
+    margin-right: 20px;
+}
+
+.btn-outline:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+
+}
+
+.img-agregar-jugador {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.img-agregar-jugador img {
+    width: 100%;
+}
+
+.boton-img-agregar-jugador {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-outline-agg {
+    border: 1px solid #2D9CDB;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 2px 20px;
+    color: #2D9CDB;
+}
+
+.btn-outline-agg:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+form .radio input[type="radio"] {
+    display: none;
+ }
+ 
+form .radio .label-rrss-publico,
+form .radio .label-rrss-privado {
+     border-radius: 3px;
+     padding: 3px;
+     width: 60px;
+     text-align: center;
+     font-size: 12px;
+     font-weight: 300;
+     cursor: pointer;
+ }
+ 
+form .radio input[type="radio"]:checked + .label-rrss-publico {
+     background: #219653;
+     color: #fefefe;
+ }
+ 
+form .radio input[type="radio"]:checked + .label-rrss-privado{
+     background: #EB5757;
+     color: #fefefe;
+ }
+ 
+form .radio .label-rrss-publico {
+     border: 1px solid #219653;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ 
+form .radio .label-rrss-privado {
+     border: 1px solid #EB5757;
+ }
+ 
+form .row-rrss {
+     padding-left: 18px;
+ }
+ 
+form .radio {
+     margin-bottom: 20px;
+ }
+ 
+form .radio:last-child {
+     margin-bottom: 0;
+ }
+
+.input-rrss-aggJugador {
+    height: 30px;
+}
+
+.botones-agg-Jugador {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.botones-agg-Jugador button {
+    width: 120px;
+}
+
+.botones-agg-Jugador .btn-outline-agg-fin {
+    border: 1px solid #2D9CDB;
+    color: #2D9CDB;
+    margin-right: 20px;
+}
+
+.botones-agg-Jugador .btn-outline-agg-fin:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+
+@media screen and (max-width: 1199px) {
+    
+    .contenedor-button-info-jugadores {
+        flex-direction: column;
+    }
+    
+    .title-info-jugadores {
+        width: 31.5%;
+        background: #FEFEFE;
+        border: 1px solid #DCDCDC;
+        color: #9C9C9C;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .widget-nuevo-articulo {
+        max-width: 300px;
+        min-width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .contenedor-filtros {
+        margin-left: 0;
+    }
+
+    .boton-filtros {
+        justify-content: center;
+    }
+
+    .header-up span {
+        display: none;
+    }
+
+    .header-up .more-option-profile .name-user-profile a {
+        display: none;
+    }
+
+    .opciones-dashboard .opciones-dashboard-filtros button span {
+        display: none;
+    }
+
+    .opciones-dashboard .opciones-dashboard-search-agregar .btn-agregar-dasboard .plus {
+        display: block;
+        font-size: 16px;
+    }
+    .opciones-dashboard .opciones-dashboard-search-agregar .btn-agregar-dasboard .agregar-btn {
+        display: none;
+    }    
+
+    .opciones-dashboard-search-agregar input[type="search"] {
+        width: 180px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+}
