@@ -20,300 +20,244 @@ body {
     font-size: 16px;
 }
 
-#body-onboarding {
+/* --- --- COMPONENTES --- --- */
+
+.btn-padel-admin {
     background: #2D9CDB;
 }
 
-.img-onboarding {
-    width: 230px;
-    height: 230px;
-    margin: auto;
-    margin-top: 30px;
+.btn-padel-admin:hover {
+    background: #3384A5;
 }
 
-.img-onboarding img {
-    width: 100%;
+.verde {
+    color: #219653;
+}
+.naranja {
+    color: #F2994A;
 }
 
-.title-onboarding {
-    text-align: center;
-    color: #FEFEFE;
-    margin-top: 30px;
-}
-
-.subtitle-onboarding {
-    color: #FEFEFE;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.pagination-onboarding {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.circle-pagination {
-    border-radius: 100%;
-    content:" ";
-    height: 10px;
-    width: 10px;
-    background: rgba(250, 250, 250, .4)
-}
-
-.active-pagination-onboarding {
-    background: #FEFEFE;
-}
-
-.center-cirle-pagination {
-    margin: 0 8px;
-}
-
-.botones-onboarding {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.btn-mobile {
-    border-radius: 10PX;
-    height: 50px;
-    background: #FEFEFE;
-    font-size: 18px;
-    font-weight: 500;
+.azul-prin {
     color: #2D9CDB;
 }
 
-.btn-mobile:hover {
-    background: rgba(250, 250, 250, .8);
-    color: #2D9CDB;
+/* --- --- HEADER --- --- */
+
+.header-up-bg {
+    background: #03080B;
 }
 
-.btn-mobile-outline {
-    background: none;
-    color: #FEFEFE;
-    border: 1px solid #FEFEFE;
-    margin-top: 13px;
-}
-
-.action-onboarding {
-    height: 30%;
+.header-up {
     display: flex;
-    flex-direction: column;
     justify-content: end;
-}
-
-.logotipo-login {
-    width: 380px;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: auto;
-}
-
-.botones-login {
-    display: flex;
-    flex-direction: column;
-}
-
-.contenedor-rrss-login {
-    display: flex;
-    justify-content: center;
-}
-
-.contenedor-rrss-login .rrss-login {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    border-radius: 100%;
-    background: #FEFEFE;
-    padding: 6px;
-    margin-bottom: 20px;
-}
-
-.contenedor-action-login {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.inicia-sesion-con {
-    color: #FEFEFE;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 35px;
-    font-size: 14px;
-}
-
-
-
- .sidebar {
-    height: 100%; 
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #3384A5; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-  }
-  
-.sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #FEFEFE;
-    display: block;
-    transition: 0.3s;
-}
-  
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-  
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    color: 03080B;
-    border: none;
-    padding: 0;
-}
-  
-#main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    padding-top: 20px;
-}
-
-.logotipo-registro {
-    height: 100px;
-    width: 300px;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.logotipo-registro img {
-    width: 100%;
-}
-
-.form-registro {
-    height: 80vh;
-}
-
-.form-registro2 {
-    height: 50vh;
-}
-
-.form-registro .form-group input,
-.form-registro2 .form-group input,
-.form-registro2 .form-group select {
-    background: none;
-    border: none;
-    border-bottom: 1px solid #03080B;
-    border-radius: 0;
-    padding-left: 0;
-    font-size: 14px;
-}
-
-.contenedor-form-group {
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-registro .form-group label {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.boton-form-registro {
-    display: flex;
-    justify-content: center;
-    height: 15%;
-    align-items: flex-end;
-}
-
-.boton-form-registro .btn-mobile-registro {
-    background: #2D9CDB;
-    color: #FEFEFE;
-    width: 100%;
+    align-items: center;
     height: 50px;
 }
 
-.img-user-registro {
-    border: 1px solid #9C9C9C;
-    border-radius: 100%;
-    height: 140px;
-    width: 140px;
+.header-up p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.header-up p a {
+    color: #FEFEFE;
+    text-decoration: underline;
+}
+
+.header-up p a:hover {
+    color: #2D9CDB;
+}
+
+.header-up .img-header-up a img {
+    margin-right: 15px;
+}
+
+.header-up .idioma select {
+    border: 2px solid #FEFEFE;
+    border-radius: 2px;
+    background: #03080B;
+    color: #FEFEFE;
+    width: 85px;
+}
+
+.header-down-bg {
+    background: #2D9CDB;
+}
+
+.navbar-nav .nav-link {
+    color: #03080B!important;
+}
+.navbar-nav .nav-link:hover {
+    color: #FEFEFE!important;
+}
+
+/* --- --- MAIN --- ---*/
+
+#inicio-sesion {
+    background: #FEFEFE;
+}
+
+#inicio-sesion .img-main {
+    max-height: 70vh;
     overflow: hidden;
-    margin: auto;
+}
+
+#inicio-sesion .img-main img {
+    width: 100%;
+    height: 100%;
+}
+
+#inicio-sesion .formulario {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio-sesion .formulario  h2{
+    color: #2D9CDB;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#inicio-sesion .formulario form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+#inicio-sesion .formulario form .grupo-formulario{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
     margin-bottom: 10px;
 }
 
-.img-user-registro img {
+#inicio-sesion .formulario form .text-area-form-contacto {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+#inicio-sesion .formulario form .text-area-form-contacto textarea{
+    border: 1px solid #9C9C9C;
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#inicio-sesion .formulario form .grupo-formulario input{
+    border: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #9C9C9C;
+}
+
+#inicio-sesion .formulario .boton {
+    margin-top: 15px;
+}
+
+#inicio-sesion .formulario .btn-enviar {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    width: 120px;
+}
+
+#inicio-sesion .formulario .btn-enviar:hover {
+    background: #3384A5 ;
+}
+
+#inicio-sesion .formulario .actions {
+    display: flex;
+    margin-top: 10px;
+}
+
+#inicio-sesion .formulario .actions .actions-group:last-child {
+    margin-left: 20px;
+}
+
+#inicio-sesion .formulario .actions .actions-group a {
+    color: #2D9CDB;
+    text-decoration: underline;
+}
+
+#inicio-sesion .formulario .actions .actions-group a:hover {
+    color: #3384A5;
+}
+
+
+/* -- --- OVERLAY --- --- */
+
+.overlay {
+    background: rgba(51, 132, 165, 0.6);
+    color: #FEFEFE;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+#inicio-sesion .overlay .img {
+    max-width: 380px;
+    margin: auto;
+}
+
+#inicio-sesion .overlay .parrafo {
+    justify-content: center;
+}
+
+#inicio-sesion .overlay .parrafo p {
+    font-size: 20px;
+}
+
+#inicio-sesion .overlay .overlay-rrss .overlay-rrss-link a img{
+    width: auto;
+}
+
+/* --- --- FOOTER --- --- */
+
+.footer {
+    background: #1F5266;
+    color: #FEFEFE;
+}
+
+.footer a {
+    color: #FEFEFE;
+}
+
+.footer .footer-nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-line {
+    border: 1px solid #FEFEFE;
     width: 100%;
 }
 
-.botones-img-user-registro {
-    display: flex;
-    justify-content: center;
+.footer .footer-up {
+   min-height: 150px;
 }
 
-.botones-img-user-registro .boton-img-user-registro .btn-user-registro {
-    background: #2D9CDB;
-    color: #FEFEFE;
-    border-radius: 100px;
-    font-size: 14px;
-} 
-
-.botones-img-user-registro .boton-img-user-registro .btn-user-registro:hover {
-    background-color: #3384A5;
+.footer .footer-down {
+    min-height: 150px;
 }
 
-.botones-img-user-registro .boton-img-user-registro:first-child {
-    margin-right: 12px;
-}
-
-.header {
-    display: flex;
-}
-
-.header .title-principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-}
-
-.header .title-principal-regresar {
-    width: 60%;
-}
-
-.header .title-principal .title-mobile {
-    font-size: 12px;
-}
+/* --- --- PARTNERS --- --- */
 
 .title-h2 {
     display: inline-block;
     border-bottom: 2px solid #2D9CDB;
-    font-size: 1rem;
+    font-size: 24px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 25px;
 }  
 
 .title-h2::after {
@@ -328,39 +272,71 @@ body {
     z-index: -1;
 }
 
-.card-sm-category, .card-lg-category {
-    border-radius: 10px;
-    height: 164px;
-    background-image: url("../img/fotos-recientes-2.jpg");
-    background-size: cover;
-    filter: grayscale(20%);
+.partners {
+    background: #FEFEFE;
+    margin-bottom: 25PX;
 }
 
-.card-lg-category {
-    height: 300px;
+.partners .img {
+    max-width: 140px;
+    max-height: 140px;
+    margin: auto;
 }
 
-.card-sm-category p {
-    position: absolute;
+.partners .img img {
+    width: 100%;
 }
 
-.bg-card-2 {
-    background-image: url(../img/fotos-recientes-3.jpg);
+/* --- --- INICIO SESION --- --- */
+
+#inicio-sesion .formulario form .grupo-formulario-inicio-sesion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.bg-card-3 {
-    background-image: url(../img/fotos-recientes-4.jpg);
+#inicio-sesion .formulario form .grupo-formulario-inicio-sesion input{
+    border: none;
+    border-bottom: 1px solid #DCDCDC;
+    color: #9C9C9C;
 }
 
-.bg-card-4 {
-    background-image: url(../img/fotos-recientes.jpg);
+#inicio-sesion .formulario #form-inicio-sesion {
+    justify-content: space-around;
+    margin-top: 16px;
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-/* --- --- OVERLAY --- --- */
+#inicio-sesion .formulario h2 .separacion-titulo-formulario,
+#inicio-sesion .formulario h2 .registrarse-titulo a{
+    color: #03080B;
+    font-size: 16px;
+}
 
-.overlay {
-    border-radius: 10px;
-    background: rgba(0, 0, 0, .4);
+#inicio-sesion .formulario h2 .registrarse-titulo a{
+    font-weight: 400;
+}
+
+/* --- --- HOME --- --- */
+
+#home-hero img {
+    min-height: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#noticias-hero img {
+    min-height: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.overlay-home,
+.overlay-noticias {
+    background: rgba(3, 8, 11,0.7);
     color: #FEFEFE;
     position: absolute;
     bottom: 0;
@@ -368,69 +344,311 @@ body {
     left: 0;
     right: 0;
     max-width: 100%;
-    padding: 10px;
 }
 
-.btn-regresar {
+.overlay-home .row, .overlay-home .container {
+    height: 90%;
+}
+
+.overlay-home .overlay-info-home h4{
+    font-size: 24px;
+    margin: 0;
+}
+
+.overlay-home .overlay-info-home p{
+    font-size: 15px;
+}
+
+.overlay-home .overlay-bienvenido-home {
+    padding-top: 30px;
+}
+
+
+/* -- --- PRÓXIMOS EVENTOS --- --- */
+
+#proximos-eventos .card .card-body .proximos-eventos-title {
+    text-align: center;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title .card-title {
+    margin: 0;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title i {
+    color: #F2C94C;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-title .icon-star {
+    color: #DCDCDC;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#proximos-eventos .card .card-body .proximos-eventos-info .card-text{
+    margin: 0;
+}
+
+#proximos-eventos .card .card-body .boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#proximos-eventos .card .card-body .boton button{
+    color: #FEFEFE;
+    width: 70%;
+    background: #2D9CDB;
+}
+
+/* --- --- WIDGETS - BARRA LATERAL --- --- */
+
+.widget {
+    margin-top: -5px;
+}
+
+.barra-widgets .widget-title h2,
+.barra-widgets .widget-title a{
+    font-size: 14px;
+}
+
+.barra-widgets {
     border: 1px solid #2D9CDB;
-    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.barra-widgets .widget-title a {
+    margin-top: 24px;
+}
+
+
+.barra-widgets .widget-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-widget-img {
+    overflow: hidden;
+    max-height: 70px;
+    max-width: 85px;
+    padding: 5px;
+}
+
+
+.col-widget-img .img-fotos-recientes {
+    width: 100%;
+    height: 100%;
+}
+
+.col-widget-img img{
+    width: 100%;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people {
+    border-bottom: 1px solid #9C9C9C;
+    padding: 5px;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people:first-child {
+    border-top: 1px solid #9C9C9C;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people a {
+    font-size: 14px;
     color: #2D9CDB;
-    height: 24px;
-    width: 24px;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people a:hover {
+    color: #3384A5;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .img-widget-ranking-people {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .img-widget-ranking-people img {
+    width: 100%;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people,
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people .jugador-widget-ranking-people {
     display: flex;
     align-items: center;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people {
+    justify-content: space-around;
+}
+
+.barra-widgets .widget-ranking .widget-ranking-people .contenedor-ranking-people .widget-ranking-name{
+    margin-left: 7px;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido img {
+    width: 100%;
+}
+
+.barra-widgets .widget-proximo-partido p {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.barra-widgets .widget-proximo-partido .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.p-regresar {
-    margin-left: 5px;
-    font-size: 12px;
-    margin-top: 2px;
+.barra-widgets .widget-proximo-partido .info  .horario-widget-proximo-partido {
+    font-size: 14px;
+    font-weight: 500;
 }
 
-/* --- --- FOTOS --- --- */
+.barra-widgets .contenedor-jugadores-widget-proximo-partido {
+    margin-top: 5px;
+}
 
-.img-fotos {
+.barra-widgets .boton-widget {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.barra-widgets .widget-poster .img-widget-poster{
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.barra-widgets .widget-poster .img-widget-poster img{
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia {
+    margin-bottom: 15px;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia {
+    max-width: 80px;
+    height: 100%;
+    margin-right: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia img{
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia {
+    display: flex;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-noticia-asunto a {
+    font-size: 12px;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-noticia-asunto a:last-child {
+    margin-top: 5px;
+    color: #03080B;
+}
+
+/* --- --- ÚLTIMAS NOTICIAS --- --- */
+
+#ultimas-noticias .card,
+#proximos-eventos .card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#ultimas-noticias .card .card-body,
+#proximos-eventos .card .card-body {
+    padding: 10px;
+}
+
+#ultimas-noticias .card .card-body .card-title,
+#ultimas-noticias .card .card-body .card-text  {
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+#ultimas-noticias .card .card-body .card-title:hover,
+#ultimas-noticias .card .card-body .card-text:hover  {
+    color: #3384A5;
+}
+
+#ultimas-noticias .card .card-body p span {
+    color: #9C9C9C;
+}
+
+#fotos-recientes .img-principal-fotos-recientes,
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
     border-radius: 10px;
     width: 100%;
-    height: 167px;
     overflow: hidden;
 }
 
-.img-fotos img {
+#fotos-recientes .img-principal-fotos-recientes img,
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes img {
     width: 100%;
 }
 
-a {
-    cursor: pointer;
+#fotos-recientes .img-principal-fotos-recientes {
+    max-height: 480px;
 }
 
-.modal-body {
-    padding: 0;
-}
-
-.modal-body .img-modal {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
-
-.modal-body .img-modal img {
-    width: 100%;
+#fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
+    max-height: 155px;
 }
 
 /* --- --- PERFIL --- --- */
 
-.card-header {
-    background: #FEFEFE;
+.perfil-button,
+.contraseña-button {
     border: 1px solid #2D9CDB;
-}
-
-.btn-link {
+    border-radius: 5px;
+    background:none;
+    width: 100%;
+    height: 60px;
     color: #03080B;
+    text-align: left;
+    padding-left: 20px;
 }
 
-.img-perfil {
+.perfil-button {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.perfil .collapse .card-body .foto-perfil {
+    border: 1px solid #9C9C9C;
     border-radius: 100%;
     width: 100px;
     height: 100px;
@@ -438,599 +656,880 @@ a {
     margin: auto;
 }
 
-.img-perfil img {
+.perfil .collapse .card-body .foto-perfil img {
     width: 100%;
 }
 
-.p-img-perfil {
+.perfil .collapse .card-body p {
     text-align: center;
-    font-size: 12px;
     color: #9C9C9C;
 }
 
-.p-img-perfil span {
+.perfil .collapse .card-body p span {
     color: #2D9CDB;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.form-perfil {
-    margin-top: 20px;
+.perfil .collapse .card-body form,
+.contraseña .collapse .card-body form {
+    margin: auto;
 }
 
-.form-perfil .form-group label {
-    font-size: 14px;
+.perfil .collapse .card-body form .contenedor-formulario,
+.contraseña .collapse .card-body form .contenedor-formulario {
+    display: flex;
+    flex-direction: column;
 }
 
-.form-perfil .form-group input,
-.form-perfil .form-group select {
+.perfil .collapse .card-body form input,
+.perfil .collapse .card-body form select,
+.contraseña .collapse .card-body form input {
     border: 1px solid #2D9CDB;
-    border-radius: 12px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
 }
 
-.boton-form-perfil {
+.perfil .collapse .card-body form .button,
+#contraseña .card form .button {
     display: flex;
     justify-content: center;
 }
 
-.btn-perfil {
+.perfil .collapse .card-body form .button button,
+#contraseña .card form .button .guardar {
+    border: none;
+    border-radius: 5px;
     background: #2D9CDB;
-    color: #FEFEFE;
+    color: #fefefe;
+    width: 60%;
 }
 
-.btn-perfil:hover {
+.perfil .collapse .card-body form .button button:hover,
+#contraseña .card form .button .guardar:hover  {
     background: #3384A5;
-    color: #FEFEFE;
 }
 
-.title-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* --- --- HEAD TO HEAD --- --- */
+
+.container-head-to-head {
+    background: #FEFEFE;
+    padding: 20px;
 }
 
-.title-main a {
-    font-size: 12px;
-    color: #2D9CDB;
+.container-head-to-head .img-person-head-to-head {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.action-main .filters-main button {
-    border: 1px solid #2D9CDB;
-    border-radius: 3px;
+.container-head-to-head .img-person-head-to-head img{
+   width: 100%;
+}
+
+.container-head-to-head .info-jugadores-head-to-head p {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
     font-size: 14px;
-    padding: 2px;
-    padding-right: 5px;
+    vertical-align: middle;
 }
 
-.action-main .filters-main button:hover {
+.container-head-to-head .info-title-head-to-head {
+    font-weight: 500;
+}
+
+#head-to-head h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#head-to-head .comparar-jugadores input{
+    border: none;
+    border-bottom: 3px solid #2D9CDB;
+    background: #FEFEFE;
+    padding: 5px;
+    width: 100%;
+    max-width: 360px;
+}
+
+#head-to-head .vs-head-to-head {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#head-to-head .boton-head-to-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#head-to-head .boton-head-to-head .btn-head-to-head {
     background: #2D9CDB;
     color: #FEFEFE;
 }
 
-.action-main .search-main button{
-    border: none;
-    background: none;
-    padding: 0;
-    color: #2D9CDB;
-    font-size: 18px;
-}
+/* --- --- PERFIL JUGADOR --- --- */
 
-.card-article {
-    border-radius: 10px;
-    display: flex;
-    height: 120px;
-    max-width: 400px;
+#perfil-jugador .contenedor-perfil-jugador-info {
     background: #FEFEFE;
-    margin: auto;
-    margin-top: 20px;
+    padding: 20px;
 }
 
-.card-article:last-child {
-    margin-bottom: 20px;
-}
-
-.card-article .img-principal-card-article {
-    width: 300px;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 5px;
-}
-
-.card-article .img-principal-card-article img {
+#perfil-jugador .contenedor-perfil-jugador-info .img-perfil-jugador {
     width: 100%;
-}
-
-.card-article .content-card-article {
-    padding: 6px;
-}
-.card-article .content-card-article h2 {
-    font-size: 14px;
-    color: #2D9CDB;
-}
-
-.card-article .content-card-article p {
-    font-size: 14px;
-    color: #9C9C9C;
-}
-
-.card-article .boton-ver-mas button {
-    height: 100%;
-    background: none;
-    border: none;
-    color: #2D9CDB;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-/* --- --- RANKING --- --- */
-
-.card-ranking {
-    background: #FEFEFE;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
-    max-width: 380px;
-    padding: 10px 20px 10px 10px;
-    border-bottom: 1px solid #9C9C9C;
-    margin: auto;
-}
-
-.card-ranking .jugador-card-ranking {
-    display: flex;
-    align-items: center;
-}
-
-.card-ranking .jugador-card-ranking .img-card-ranking {
-    border: 1px solid #9C9C9C;
-    border-radius: 100%;
-    min-width: 35px;
-    max-width: 35px;
-    min-height: 35px;
-    max-height: 35px;
+    height: 90%;
     overflow: hidden;
-    margin-right: 5px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
-.card-ranking .jugador-card-ranking .img-card-ranking img {
-    width: 100%;
-}
-
-.card-ranking .jugador-card-ranking p {
-    font-size: 14px;
-    font-size: 500;
-}
-
-.card-ranking .position-ranking .p-position-ranking {
-    color: #219653;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.card-ranking .puntos-ranking .p-puntos-ranking {
-    font-size: 14px;
-    color: #2D9CDB;
-}
-
-.black {
-    color: #03080B !important;
-}
-
-.boton-ranking {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.boton-ranking button {
-    width: 300px;
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador p{
     height: 40px;
+    margin-bottom: 10px;
 }
 
-.boton-ranking .btn-ranking-siguiente {
-    background: #2D9CDB;
-    color: #FEFEFF;
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador:first-child p{
+    font-weight: 500;
 }
 
-.boton-ranking .btn-ranking-anterior {
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador  .pais-perfil-jugador {
+    display: flex;
+}
+
+#perfil-jugador .contenedor-perfil-jugador-info .info-perfil-jugador  .pais-perfil-jugador p{
+    margin-bottom: 9px;
+    margin-top: 2px;
+    margin-left: 7px;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .ranking-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .ranking-number {
+    font-size: 64px;
+    color: #219653;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#perfil-jugador .contenedor-rrss-ranking .rrss-perfil-jugador a,
+#perfil-jugador .contenedor-dirreccion-y-rrss-club .rrss-perfil-jugador  a {
+    border: 1px solid #2D9CDB;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#perfil-jugador .boton .boton-biografia-perfil-jugador {
     border: 1px solid #2D9CDB;
     color: #2D9CDB;
-    margin-top: 12px;
 }
 
-.fechas .card-fecha {
-    border-radius: 5px;
-    width: 40px;
-    height: 50px;
-    text-align: center;
-    padding: 5px;
-    margin-right: 20px;
-}
-
-.fechas .card-fecha:last-child {
-    margin-right: 0px;
-}
-
-.fechas .card-fecha p{
-    margin-bottom: 0;
-}
-
-.fechas .card-fecha .dia-card-fecha {
-    font-size: 10px;
-}
-
-.fechas .card-fecha .num-card-fecha {
-    font-size: 18px;
-}
-
-.card-fecha-active {
-    background: #2D9CDB;
+#perfil-jugador .boton .boton-biografia-perfil-jugador:hover {
     color: #FEFEFE;
+    background: #2D9CDB;
 }
 
-.card-evento {
+#perfil-jugador .boton {
     width: 100%;
-    height: 120px;
     display: flex;
-    background: #FEFEFE;
-    max-width: 400px;
-    margin: auto;
+    justify-content: end;
 }
 
-.card-evento .info-card-evento {
-    background: #DCDCDC;
-    padding: 10px;
-    text-align: center;
-    width: 150px;
+/* --- --- COMENTARIOS --- --- */
+
+.comentar .profile-comentario {
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.card-evento .info-card-evento p {
-    margin-bottom: 0;
+.comentar .profile-comentario .img-profile-comentario{
+    border-radius: 15px;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 10px;
 }
 
-.card-evento .info-card-evento .num-card-evento {
-    font-size: 24px;
-    color: #2D9CDB;
+.comentar .profile-comentario .img-profile-comentario img{
+    width: 100%;
 }
 
-.card-evento .info-card-evento .fecha-card-evento,
-.card-evento .info-card-evento .hora-card-evento {
-    font-size: 16px;
-    color: #2D9CDB;
+.comentar .profile-comentario .info-profile-comentario p {
+    margin: 0;
+    font-size: 14px;
 }
 
-.card-evento .info-evento {
-    padding: 10px;
-}
-
-.card-evento .info-evento .title-info-evento {
-    font-size: 16px;
-    color: #2D9CDB;
-    margin-bottom: 0;
-}
-
-.card-evento .info-evento .desc-info-evento {
-    font-size: 12px;
+.comentar .profile-comentario .info-profile-comentario p:last-child {
     color: #9C9C9C;
 }
 
-.card-evento .info-evento .img-jugador-incrito {
-    border-radius: 100%;
-    overflow: hidden;
-    min-width: 20px;
-    max-width: 20px;
-    min-height: 20px;
-    max-height: 20px;
-    position: relative;
-    margin-right: -10px;
-}
-
-.card-evento .info-evento .img-jugador-incrito img {
+.comentar .contenedor-comentario textarea,
+.comentar .contenedor-comentario .comentario{
+    border: 1px solid #2D9CDB;
+    background: none;
     width: 100%;
-}
-
-.card-evento .info-evento .jugadores-incritos p {
-    color: #2D9CDB;
-    font-size: 12px;
-    margin-left: 3px;
-}
-
-.card-evento .button-ver-mas button {
-    height: 100%;
-    padding: 0;
-    color: #2D9CDB;
-    font-size: 20px;
-}
-
-.card-jugador {
-    background: #FEFEFE;
-    width: 100%;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.card-jugador .img-card-jugador {
-    border: 1px solid #9C9C9C;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-    margin: auto;
-}
-
-.card-jugador .img-card-jugador img {
-    width: 100%;
-}
-
-.card-jugador p {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.card-jugador .name-card-jugador {
+    min-height: 100px ;
+    max-height: 150px;
+    border-radius: 8px;
+    padding: 10px;
     font-size: 14px;
-    font-weight: 500;
 }
 
-.card-jugador .info-card-jugador {
-    font-size: 12px;
+.comentar .boton-comentarios,
+.comentar .boton-responder {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
 }
 
-.card-jugador .info-card-jugador span {
-    color: #2D9CDB;
-    font-weight: 500;
+.comentar .boton-comentarios button{
+   background: #2D9CDB;
+   color: #FEFEFE;
+}
+
+.comentar .boton-comentarios button:hover{
+    background: #3384A5;
+ }
+
+ /* --- --- DETALLES CLUB --- --- */
+
+.contenedor-dirreccion-y-rrss-club .img-direccion-club {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.contenedor-dirreccion-y-rrss-club .img-direccion-club img {
+    width: 100%;
 }
 
 /* --- --- ARTÍCULO --- --- */
 
-.title-article {
-    font-size: 26px;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-.action-article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.action-article .like-article,
-.action-article .share-article {
-    font-size: 14px;
-}
-
-.action-article .like-article .btn-article-action,
-.action-article .share-article .btn-article-action {
-    padding: 0;
-}
-
-.container-article {
-    padding-left: 10px;
-    padding-right: 10px;
+.img-principal-articulo {
+    border-radius: 15px;
+    margin-top: 25px;
     margin-bottom: 20px;
-}
-
-.text-article {
-    color: #474A57;
-    font-weight: normal;
-    font-size: 18px;
-    margin: 0;
-}
-
-.principal-img-article {
-    border-radius: 20px;
-    height: 30vh;
     width: 100%;
+    max-height: 60vh;
     overflow: hidden;
-    margin: 20px auto;
 }
 
-.principal-img-article img {
+.img-principal-articulo img {
     width: 100%;
 }
 
-.info-article p:first-child{
-    font-weight: 600;
-    margin-bottom: 0;
+.contenido-articulo h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0D222A;
+    margin-bottom: 15px;
 }
 
-.info-article p:last-child {
-    color: #474A57;
-    font-size: 14px;
+.contenido-articulo p {
+    font-size: 16px;
 }
 
-.comentar-article .btn-comentar-article {
+.contenedor-compartir-rrss-articulo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contenedor-compartir-rrss-articulo a {
+    border: 1px solid #2D9CDB;
+    border-radius: 5px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+/* --- --- LISTA JUGADORES / CLUB / RANKING --- --- */
+
+#table-lista-jugadores .contenedor-table-lista-jugadores {
+    overflow: hidden;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores thead {
     background: #2D9CDB;
     color: #FEFEFE;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores thead tr th,
+#table-lista-jugadores .contenedor-table-lista-jugadores tbody tr td {
     font-size: 14px;
+    text-align: center;
 }
 
-.container-comentarios {
-    background: #FEFEFE;
-    margin-top: 20px;
-}
-
-.container-comentarios .card-comentarios {
-    padding: 15px;
-    border-bottom: 1px solid #9C9C9C;
-}
-
-.container-comentarios .card-comentarios .user-comentario {
-    display: flex;
-    align-items: center;
-}
-
-.container-comentarios .card-comentarios .user-comentario .img-user-comentario {
+#table-lista-jugadores .contenedor-table-lista-jugadores .img-table-lista {
     border: 1px solid #9C9C9C;
     border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
     overflow: hidden;
-    width: 40px;
-    height: 40px;
     margin-right: 5px;
 }
 
-.container-comentarios .card-comentarios .user-comentario .img-user-comentario img {
+#table-lista-jugadores .contenedor-table-lista-jugadores .img-table-lista img{
     width: 100%;
 }
 
-.container-comentarios .card-comentarios .user-comentario p {
-    margin-bottom: 0;
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-jugador,
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-club {
+    display: flex;
+    align-items: center;
+}
+
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-jugador p,
+#table-lista-jugadores .contenedor-table-lista-jugadores .table-club p {
+    margin: 0;
+}
+
+.contenedor-filtro-busqueda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .filtros {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .filtros .opcion-filtros button{
+    color: #03080B;
+}
+
+.contenedor-filtro-busqueda .filtros .opcion-filtros button:hover{
+    color: #FEFEFE;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados {
+    margin-left: 5px;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    color: #FEFEFE;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro:first-child {
+    background: #2D9CDB;
+    border-color: #2D9CDB;
+}
+
+.contenedor-filtro-busqueda .filtros .filtros-seleccionados .badge-filtro:last-child{
+    background: #F2994A;
+    border-color: #F2994A;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .busqueda input[type="search"] {
+    border: 1px solid #9C9C9C;
+    border-radius: 15px;
+    background: none;
+    width: 250px;
+    padding: 5px;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .cambio-lista .btn-cambio-lista {
+    color: #2D9CDB;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.contenedor-filtro-busqueda .busqueda-y-cambioLista .cambio-lista .btn-cambio-lista:hover {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.botones-lista-ranking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-list-ranking {
+    background: #2D9CDB;
+    color: #FEFEFE;
+    width: 48%;
+    height: 50px;
+}
+
+/* --- --- CARD JUGADORES / CLUBES--- --- */
+
+#container-card-jugadores .card-jugador {
+    width: 100%;
+    max-width: 440px;
+    min-height: 144px;
+    max-height: 144px;
+    overflow: hidden;
+    display: flex;
+    background: #FEFEFE;
+}
+
+#container-card-jugadores .card-jugador .img-card-jugador {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container-card-jugadores .card-jugador .img-card-jugador img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador {
+    width: 50%;
+    padding: 10px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador p{
+    margin: 0;
     font-size: 12px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .nombre-categoria-info-principal-card-jugador p:first-child,
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .ranking-info-principal-card-jugador p:last-child {
+    font-size: 16px;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-principal-card-jugador .ranking-info-principal-card-jugador {
+    text-align: center;
+}
+
+#container-card-jugadores .card-jugador .info-card-jugador .info-secundario-card-jugador p{
     font-weight: 600;
 }
 
-.container-comentarios .card-comentarios .text-comentario {
-    font-size: 14px;
-    margin-top: 8px;
+#container-card-jugadores .card-jugador .info-card-jugador .info-secundario-card-jugador p span {
+    font-weight: normal;
 }
 
-.container-comentarios .card-comentarios .responder-comentario {
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores {
     display: flex;
     justify-content: flex-end;
 }
 
-.container-comentarios .card-comentarios .responder-comentario .btn-responder-comentario {
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores .btn-card-jugadores{
+    border: 1px solid #2D9CDB;
     color: #2D9CDB;
-    font-size: 14px;
-    padding: 0;
+    padding: 3px 15px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.button-comentar {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.button-comentar .btn-comentar {
+#container-card-jugadores .card-jugador .info-card-jugador .boton-card-jugadores .btn-card-jugadores:hover{
     background: #2D9CDB;
     color: #FEFEFE;
-    width: 60%;
-    height: 40px;
 }
 
-.table-detalles-jugador tbody tr td {
+#container-card-jugadores .card-jugador .rrss-card-jugadores {
+    border-left: 1px solid #2D9CDB;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+#container-card-jugadores .card-jugador .rrss-card-jugadores .rrss-card-jugadores-img {
+    border-bottom: 1px solid #2D9CDB;
+    width: 100%;
+    height: 33.33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
-.title-fotos-detalle-jugador a {
-    color: #2D9CDB;
-    font-size: 12px;
+#container-card-jugadores .card-jugador .rrss-card-jugadores .rrss-card-jugadores-img:last-child {
+    border-bottom: none;
 }
 
-.img-detalles-jugador {
-    width: 120px;
-    height: 120px;
-    border: 1px solid #9C9C9C;
+/* --- --- CALENDARIO --- --- */
+
+.table-calendario .img-calendario{
     border-radius: 100%;
-    overflow: hidden;
-    margin: auto;
-}
-
-.img-detalles-jugador img {
-    width: 100%;
-}
-
-.nombre-detalles-jugador {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-.ranking-detalles-jugador {
-    text-align: center;
-    font-weight: 600;
-}
-
-.number-detalles-jugador {
-    text-align: center;
-    font-size: 42px;
-    font-weight: 600;
-    color: #219653;
-}
-
-.rrss-detalles-jugador {
-    display: flex;
-    justify-content: center;
-}
-
-.rrss-detalles-jugador .RRSS-detalles-jugador {
-    border: 1px solid #2D9CDB;
-    border-radius: 100%;
-    padding: 6px;
-
-}
-
-.perfil-jugador {
-   display: flex;
-   justify-content: center;
-}
-
-.info-perfil-jugador {
-    display: flex;
-}
-
-.info-prin-perfil-jugador {
-    color: #474A57;
-}
-
-.info-secun-perfil-jugador {
-    margin-left: 40px;
-}
-
-.info-secun-perfil-jugador .flag-info-perfil-jugador {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.7rem;
-}
-
-.info-secun-perfil-jugador .flag-info-perfil-jugador p {
-    margin-bottom: 0;
-    margin-left: 5px;
-}
-
-.imgPrin-fotos-detalles-jugador {
-    border-radius: 10px;
-    width: 100%;
-    height: 230px;
-    overflow: hidden;
-    margin-bottom: 10px;
-}
-
-.imgPrin-fotos-detalles-jugador img {
-    width: 100%;
-}
-
-.imgSecon-fotos-detalles-jugador {
-    border-radius: 5px;
-    width: 100%;
+    width: 80px;
     height: 80px;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
-.imgSecon-fotos-detalles-jugador img {
+.table-calendario .img-calendario img {
     width: 100%;
 }
+
+.table-calendario tr td p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.table-calendario .btn-calendario {
+    background: #2D9CDB;
+    color: #FEFEFE;
+}
+
+.table-calendario .btn-calendario:hover {
+    background: #3384A5;
+}
+
+.card-calendario {
+    background: #D9EEF6;
+}
+
+.btn-card-header {
+    color: #FEFEFE;
+}
+
+/* --- --- PRÓXIMOS PARTIDOS --- --- */
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido img {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.td-jugadores-proximos-partidos  {
+    display: flex;
+    justify-content: space-between;
+    min-width: 550px;
+}
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido {
+    display: flex;
+    align-items: center;
+}
+
+.td-jugadores-proximos-partidos .jugador-proximo-partido p,
+.td-jugadores-proximos-partidos .vs-proximos-partidos{
+   margin: 0;
+}
+
+.td-jugadores-proximos-partidos .vs-proximos-partidos {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.table-proximos-partidos td,
+.table-proximos-partidos th {
+    font-size: 14px;
+    text-align: center;
+}
+
+.doble-jugadores-proximos-partidos .jugador-proximo-partido img {
+    margin-right: -6px;
+}
+
+.card-proximos-partidos {
+    background: #2D9CDB;
+}
+
+.card-proximos-partidos .btn-card-header {
+    color: #FEFEFE;
+}
+
+/* --- --- RESULTADO PARTIDO --- --- */
+
+.td-partido-resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td-partido-resultado .img-jugador-partido-resultado {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 45px;
+    max-height: 45px;
+    overflow: hidden;
+}
+
+
+.td-partido-resultado .img-jugador-partido-resultado img {
+    width: 100%;
+}
+
+.table-partido-resultado td,
+.table-partido-resultado th {
+    font-size: 14px;
+    text-align: center;
+}
+
+.title-h2-partido-resultados {
+    margin-top: 25px;
+}
+
+.container-resultado-del-partido {
+    background: #FEFEFE;
+}
+
+.container-resultado-del-partido .cacilla-resultado-partido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #DCDCDC;
+    padding: 10px;
+}
+
+/* --- --- DRAW LLAVE --- --- */
+
+.titleDrawLlave {
+    min-width: 925px;
+    display: flex;
+    background: #DCDCDC;
+    padding: 15px;
+}
+
+.titleDrawLlave .R32{
+    width: 200px;
+}
+
+.titleDrawLlave .R16 {
+    width: 124px;
+    margin-left: 20px;
+}
+
+.titleDrawLlave .QF {
+    width: 124px;
+    margin-left: 10px;
+}
+
+.titleDrawLlave .SF {
+    width: 124px;
+    margin-left: 10px;
+}
+
+.titleDrawLlave .F {
+    width: 124px;
+    margin-left: 10px;
+} 
+
+.titleDrawLlave .ganador {
+    width: 124px;
+    margin-left: 10px;
+}
+
+.containerDrawLlave {
+    display: flex;
+}
+
+.containerDrawLlave .jugador-DrawLlave {
+    width: 200px;
+    display: flex;
+    border: 1px solid #9C9C9C;
+    padding: 8px;
+    align-items: center;
+}
+
+.containerDrawLlave p {
+    margin: 0;
+    font-size: 14px;
+    color: #03080B;
+}
+
+.containerDrawLlave .jugador-DrawLlave .flag-DrawLlave {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.containerDrawLlave .R16-jugador,
+.QF-jugador,
+.SF-jugador,
+.F-jugador,
+.ganador-jugador {
+    border: 1px solid #9C9C9C;
+    border-left: none;
+    width: 124PX;
+    height: 64px;
+    margin-left: 10PX;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.R-16-jugador:last-child, 
+.QF-jugador:last-child,
+.SF-jugador:last-child,
+.F-jugador:last-child,
+.ganador-jugador:last-child {
+    margin-bottom: 0;
+}
+
+
+.QF-jugador {
+    margin-bottom: 117px;
+    margin-top: 55px;
+}
+
+.SF-jugador {
+    margin-top: 143px;
+    margin-bottom: 300px;
+}
+
+.F-jugador {
+    margin-top: 320px;
+    margin-bottom: 675px;
+}
+
+.ganador-jugador {
+    margin-top: 700px;
+}
+
+.info-contenedor-jugador-DrawLlave {
+    padding-top: 2px;
+}
+
+.containerDrawLlave .R16-jugador .link-DrawLlave,
+.QF-jugador .link-DrawLlave,
+.SF-jugador .link-DrawLlave,
+.F-jugador .link-DrawLlave,
+.ganador-jugador .link-DrawLlave {
+    width: 10px;
+    height: 100%;
+    background: #2D9CDB;
+    margin-right: 8px;
+}
+
+/* ---- --- ACOMODOR EL LINK DE SF --- --- */
+.SF-jugador .link-DrawLlave {
+
+}
+
+.containerDrawLlave .R16-jugador .link-DrawLlave:hover,
+.QF-jugador .link-DrawLlave:hover,
+.SF-jugador .link-DrawLlave:hover,
+.F-jugador .link-DrawLlave:hover,
+.ganador-jugador .link-DrawLlave:hover {
+    background: #3384A5;
+}
+
+.containerDrawLlave .R16 .R16-jugador .container-R16-jugador,
+.QF .QF-jugador .container-QF-jugador,
+.SF-jugador .container-SF-jugador,
+.F-jugador .container-F-jugador,
+.ganador-jugador .container-ganador-jugador {
+    display: flex;
+}
+
+.containerDrawLlave .R16 .R16-jugador .container-R16-jugador .img-R16-jugador,
+.QF .QF-jugador .container-QF-jugador .img-QF-jugador,
+.SF-jugador .container-SF-jugador .img-SF-jugador,
+.F-jugador .container-F-jugador .img-F-jugador,
+.ganador-jugador .container-ganador-jugador .img-ganador-jugador {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 37px;
+    max-width: 37px;
+    min-height: 37px;
+    max-height: 37px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.containerDrawLlave .R16 .R16-jugador .container-R16-jugador .img-R16-jugador img,
+.QF .QF-jugador .container-QF-jugador .img-QF-jugador img,
+.SF-jugador .container-SF-jugador .img-SF-jugador img,
+.F-jugador .container-F-jugador .img-F-jugador img,
+.ganador-jugador .container-ganador-jugador .img-ganador-jugador img{
+    width: 100%;
+}
+
+.containero-resultado-drawLlave {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35px;
+}
+
 
 /* --- --- MEDIAQUERY --- --- */
 
-@media screen and (min-width: 530px) {
+@media screen and (max-width: 1199px) {
+    .barra-widgets .widget-poster {
+        margin-bottom: 20px;
+    }
+
     
-    .principal-img-article {
-        height: 40vh;
+    #container-card-jugadores .card-jugador .info-card-jugador {
+        width: 60%;
+    }
+
+    #container-card-jugadores .card-jugador {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    #inicio-sesion .formulario {
+        max-width: 500px;
+        margin: auto;
     }
 
 }
 
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-} 
+@media screen and (max-width: 767px) {
+
+    #fotos-recientes .img-principal-fotos-recientes {
+        max-height: 350px;
+    }
+
+    #fotos-recientes .contenedor-fotos-secundarias .img-secundario-fotos-recientes {
+        max-height: 111px;
+    }
+
+    .container-head-to-head .container-info-jugadores-head-to-head {
+        order: 1;
+        margin-top: 20px;
+    } 
+
+    .contenedor-filtro-busqueda {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedor-filtro-busqueda .filtros{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header-up .img-header-up a img {
+        display: none;
+    }
+}
+
+
 
 
 
