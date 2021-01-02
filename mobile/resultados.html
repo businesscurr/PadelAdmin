@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Lista Clubes</title>
+    <title>Resultados</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -73,10 +73,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-9">
-                <div class="container" id="table-lista-jugadores" class="tabla-jugadores">
+                <div class="container" id="container-card-jugadores" class="card-jugadores">
                     <div class="row">
                         <div class="col-10 offset-1 offset-sm-0 col-sm-12 pl-0 mb-3">
-                            <h2 class="title-h2">Ranking</h2>
+                            <h2 class="title-h2">Calendario</h2>
                         </div>
                         <div class="col-12 contenedor-filtro-busqueda mb-3">
                             <div class="filtros">
@@ -98,110 +98,270 @@
                             </div>
                             
                         </div>
-                        <div class="col-12 contenedor-table-lista-jugadores">
+                        <div class="col-12 mb-3">
+                            <div id="accordion">
+                                <div class="card">
+                                  <div class="card-header card-proximos-partidos" id="headingOne">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Jueves 08/10/2020
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="col-12 contenedor-perfil-jugador-info">
                             
-                            <div class="table-responsive">
-                                <table class="table table-hover">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">Ranking</th>
-                                        <th scope="col">Jugador</th>
-                                        <th scope="col">Edad</th>
-                                        <th scope="col">País</th>
-                                        <th scope="col">Torneos Jugados</th>
-                                        <th scope="col">Puntos</th>
-                                        <th scope="col">Siguiente Mejor</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td class="verde">1</td>
-                                        <td class="table-jugador table-club">
-                                            <div class="img-table-lista">
-                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            <div class="table-responsive table-proximos-partidos">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                          <th scope="col">Localidad</th>
+                                                          <th scope="col">Torneos</th>
+                                                          <th scope="col">Sede</th>
+                                                          <th scope="col">Horario</th>
+                                                          <th scope="col">Categoría <br> Ronda</th>
+                                                          <th scope="col">Jugadores</th>
+                                                        </tr>
+                                                      </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                        <td>Capital Federal</td>
+                                                        <td>ATP Tour</td>
+                                                        <td>El Abierto</td>
+                                                        <td>21:00</td>
+                                                        <td>6° <br> Octavos</td>
+                                                        <td class="td-jugadores-proximos-partidos">
+                                                            <div class="jugador-proximo-partido">
+                                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                <p class="azul-prin">Rafael Nadal</p>
+                                                            </div>
+                                                            <div class="resultados d-flex align-items-center ">
+                                                                <p class="mb-0">64</p>
+                                                                <p class="mb-0 ml-2 mr-2">46</p>
+                                                                <p class="mb-0">36</p>
+                                                            </div>
+                                                            <div class="jugador-proximo-partido">
+                                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                <p class="azul-prin">Rafael Nadal</p>
+                                                            </div>
+                                                        </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capital Federal</td>
+                                                            <td>ATP Tour</td>
+                                                            <td>El Abierto</td>
+                                                            <td>21:00</td>
+                                                            <td>6° <br> Octavos</td>
+                                                            <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <div class="resultados d-flex align-items-center ">
+                                                                    <p class="mb-0">64</p>
+                                                                    <p class="mb-0 ml-2 mr-2">46</p>
+                                                                    <p class="mb-0">36</p>
+                                                                </div>
+                                                                <div class="jugador-proximo-partido ml-3">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>    
+                                                            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
-                                            <p class="azul-prin">Cortney Henry</p>
-                                        </td>
-                                        <td>34</td>
-                                        <td>
-                                            <img src="./img/flag-serbia.png" alt="">
-                                        </td>
-                                        <td>18</td>
-                                        <td class="verde">9.850</td>
-                                        <td>0</td>
-                                      </tr>
-                                      <tr>
-                                        <td class="verde">2</td>
-                                        <td class="table-jugador table-club">
-                                            <div class="img-table-lista">
-                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
-                                            </div>
-                                            <p class="azul-prin">Cortney Henry</p>
-                                        </td>
-                                        <td>34</td>
-                                        <td>
-                                            <img src="./img/flag-serbia.png" alt="">
-                                        </td>
-                                        <td>18</td>
-                                        <td class="verde">9.850</td>
-                                        <td>0</td>
-                                      </tr>
-                                      <tr>
-                                        <td class="verde">3</td>
-                                        <td class="table-jugador table-club">
-                                            <div class="img-table-lista">
-                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
-                                            </div>
-                                            <p class="azul-prin">Cortney Henry</p>
-                                        </td>
-                                        <td>34</td>
-                                        <td>
-                                            <img src="./img/flag-serbia.png" alt="">
-                                        </td>
-                                        <td>18</td>
-                                        <td class="verde">9.850</td>
-                                        <td>0</td>
-                                      </tr>
-                                      <tr>
-                                        <td class="verde">4</td>
-                                        <td class="table-jugador table-club">
-                                            <div class="img-table-lista">
-                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
-                                            </div>
-                                            <p class="azul-prin">Cortney Henry</p>
-                                        </td>
-                                        <td>34</td>
-                                        <td>
-                                            <img src="./img/flag-serbia.png" alt="">
-                                        </td>
-                                        <td>18</td>
-                                        <td class="verde">9.850</td>
-                                        <td>0</td>
-                                      </tr>
-                                      <tr>
-                                        <td class="verde">5</td>
-                                        <td class="table-jugador table-club">
-                                            <div class="img-table-lista">
-                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
-                                            </div>
-                                            <p class="azul-prin">Cortney Henry</p>
-                                        </td>
-                                        <td>34</td>
-                                        <td>
-                                            <img src="./img/flag-serbia.png" alt="">
-                                        </td>
-                                        <td>18</td>
-                                        <td class="verde">9.850</td>
-                                        <td>0</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                            </div>
-
-                        </div>
-                        <div class="col-12 mb-3 mt-3 botones-lista-ranking">
-                            <button class="btn btn-list-ranking">Top 12 anterior</button>
-                            <button class="btn btn-list-ranking">Próximo 12 anterior</button>
+                
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-proximos-partidos" id="headingTwo">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                          Viernes 09/10/2020
+                                        </button>
+                                      </h5>
+                                    </div>
+                                
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                      <div class="card-body">
+                                          <div class="col-12 contenedor-perfil-jugador-info">
+                              
+                                              <div class="table-responsive table-proximos-partidos">
+                                                  <table class="table table-hover">
+                                                      <thead>
+                                                          <tr>
+                                                            <th scope="col">Localidad</th>
+                                                            <th scope="col">Torneos</th>
+                                                            <th scope="col">Sede</th>
+                                                            <th scope="col">Horario</th>
+                                                            <th scope="col">Categoría <br> Ronda</th>
+                                                            <th scope="col">Jugadores</th>
+                                                          </tr>
+                                                        </thead>
+                                                      <tbody>
+                                                          <tr>
+                                                          <td>Capital Federal</td>
+                                                          <td>ATP Tour</td>
+                                                          <td>El Abierto</td>
+                                                          <td>21:00</td>
+                                                          <td>6° <br> Octavos</td>
+                                                          <td class="td-jugadores-proximos-partidos">
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+                                                              <div class="resultados d-flex align-items-center ">
+                                                                <p class="mb-0">64</p>
+                                                                <p class="mb-0 ml-2 mr-2">46</p>
+                                                                <p class="mb-0">36</p>
+                                                            </div>
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+  
+                                                          </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>Capital Federal</td>
+                                                              <td>ATP Tour</td>
+                                                              <td>El Abierto</td>
+                                                              <td>21:00</td>
+                                                              <td>6° <br> Octavos</td>
+                                                              <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="resultados d-flex align-items-center ">
+                                                                    <p class="mb-0">64</p>
+                                                                    <p class="mb-0 ml-2 mr-2">46</p>
+                                                                    <p class="mb-0">36</p>
+                                                                </div>
+                                                                  <div class="jugador-proximo-partido ml-3">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>    
+                                                              </td>
+                                                              </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </div>
+                  
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-proximos-partidos" id="headingThree">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                          Domingo 11/10/2020
+                                        </button>
+                                      </h5>
+                                    </div>
+                                
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                      <div class="card-body">
+                                          <div class="col-12 contenedor-perfil-jugador-info">
+                              
+                                              <div class="table-responsive table-proximos-partidos">
+                                                  <table class="table table-hover">
+                                                      <thead>
+                                                          <tr>
+                                                            <th scope="col">Localidad</th>
+                                                            <th scope="col">Torneos</th>
+                                                            <th scope="col">Sede</th>
+                                                            <th scope="col">Horario</th>
+                                                            <th scope="col">Categoría <br> Ronda</th>
+                                                            <th scope="col">Jugadores</th>
+                                                          </tr>
+                                                        </thead>
+                                                      <tbody>
+                                                          <tr>
+                                                          <td>Capital Federal</td>
+                                                          <td>ATP Tour</td>
+                                                          <td>El Abierto</td>
+                                                          <td>21:00</td>
+                                                          <td>6° <br> Octavos</td>
+                                                          <td class="td-jugadores-proximos-partidos">
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+                                                              <div class="resultados d-flex align-items-center ">
+                                                                <p class="mb-0">64</p>
+                                                                <p class="mb-0 ml-2 mr-2">46</p>
+                                                                <p class="mb-0">36</p>
+                                                            </div>
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+  
+                                                          </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>Capital Federal</td>
+                                                              <td>ATP Tour</td>
+                                                              <td>El Abierto</td>
+                                                              <td>21:00</td>
+                                                              <td>6° <br> Octavos</td>
+                                                              <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="resultados d-flex align-items-center ">
+                                                                    <p class="mb-0">64</p>
+                                                                    <p class="mb-0 ml-2 mr-2">46</p>
+                                                                    <p class="mb-0">36</p>
+                                                                </div>
+                                                                  <div class="jugador-proximo-partido ml-3">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>    
+                                                              </td>
+                                                              </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </div>
+                  
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                  
+                              </div>
                         </div>
                         <nav aria-label="..." class="d-flex justify-content-center" style="width: 100%;">
                             <ul class="pagination">

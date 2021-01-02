@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Artículo</title>
+    <title>Próximos Partidos</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -73,109 +73,292 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-9">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="img-principal-articulo">
-                                <img src="./img/img-registro.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 contenido-articulo">
-                            <h1>¿Quién es Roger Federer?</h1>
-                            <p>
-                                Roger Federer (Basilea, Suiza; 8 de agosto de 1981) es 
-                                un tenista suizo,​ vencedor de 20 títulos individuales en 
-                                torneos de Grand Slam, el mayor número de toda la historia 
-                                en tenis masculino y ha mantenido el puesto número en el 
-                                ranking de la ATP por un tiempo récord de 310 semanas, 
-                                237 consecutivas. Actualmente ocupa el cuarto lugar en la 
-                                clasificación ATP.
-                            </p>
-                            <p>
-                                Convertido en profesional en 1998, permaneció entre los diez
-                                 mejores tenistas desde 2002 hasta 2016; regresó a este selecto
-                                  grupo después de su victoria en el Abierto de Australia 2017.
-                            </p>
-                            <p>
-                                Roger Federer ha logrado ocho títulos del Campeonato de Wimbledon, 
-                                seis del Abierto de Australia y cinco del Abierto de Estados Unidos,
-                                 así como un título del Torneo de Roland Garros. Es uno de los ocho 
-                                 tenistas que ha logrado vencer en los cuatro torneos del Grand Slam.
-                                  También ostenta el mejor registro en el número de finales de Grand Slam 
-                                  jugadas: 31, diez de estas consecutivas, entre la final de Wimbledon 2005 y 
-                                  el Abierto de Estados Unidos 2007. Así mismo, ha logrado un 
-                                  registro imbatido de seis ATP World Tour Finals, 28 Masters 1000, 
-                                  récord de 24 títulos ATP World Tour 500 y 25 ATP World Tour 250.
-                            </p>
-                            <p>
-                                Su estilo de juego es versátil y apto para todo tipo de superficies,
-                                 y se caracteriza por un excepcional movimiento de pies y variedad 
-                                 de golpes. Efectivo tanto desde el fondo de pista como en la red,
-                                  su aparente falta de esfuerzo durante los partidos, así como sus 
-                                  movimientos eficientes y elegantes, lo han convertido en un tenista 
-                                  muy popular entre sus muchos seguidores. Ha sido galardonado trece 
-                                  veces con el Premio a la Deportividad y ha sido nombrado Jugador
-                                   del Año por la ATP y campeón Mundial por la ITF en cinco ocasiones, 
-                                   mismo número de veces en que se la ha concedido el Premio Laureus 
-                                   al Deportista del Año, cuatro de ellos consecutivos.
-                            </p>
-                        </div>
-                        <div class="col-12 contenedor-compartir-rrss-articulo">
-                            <button class="btn btn-compartir-articulo azul-prin">Compartir</button>
-                            <a href="#"><img src="./img/twitter-azul.png" alt=""></a>
-                            <a href="#"><img src="./img/instagram-azul.png" alt=""></a>
-                            <a href="#"><img src="./img/facebook-azul.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container" id="perfil-jugador" class="comentarios">
+                <div class="container" id="container-card-jugadores" class="card-jugadores">
                     <div class="row">
                         <div class="col-10 offset-1 offset-sm-0 col-sm-12 pl-0 mb-3">
-                            <h2 class="title-h2">Comentarios</h2>
+                            <h2 class="title-h2">Calendario</h2>
                         </div>
-                        <div class="col-12">
-                            <div class="comentar">
-                                <div class="profile-comentario">
-                                    <div class="img-profile-comentario">
-                                        <img src="./img/img-comentarios.jpg" alt="">
-                                    </div>
-                                    <div class="info-profile-comentario">
-                                        <p>Christian Rojas</p>
-                                        <p>17/09/2020</p>
-                                    </div>
+                        <div class="col-12 contenedor-filtro-busqueda mb-3">
+                            <div class="filtros">
+                                <div class="opcion-filtros">
+                                    <button class="btn btn-outline-primary"><i class="icon icon-sliders"></i>Filtros</button>
                                 </div>
-                                <div class="contenedor-comentario">
-                                    <textarea name="" id=""></textarea>
-                                </div>
-                                <div class="boton-comentarios">
-                                    <button class="btn btn-comentarios">Comentar</button>
+                                <div class="filtros-seleccionados">
+                                    <span class="badge badge-filtro">Filtro 1</span>
+                                    <span class="badge badge-filtro">Filtro 2</span>
                                 </div>
                             </div>
-                            <div class="comentar">
-                                <div class="profile-comentario">
-                                    <div class="img-profile-comentario">
-                                        <img src="./img/img-comentarios.jpg" alt="">
-                                    </div>
-                                    <div class="info-profile-comentario">
-                                        <p>Christian Rojas</p>
-                                        <p>17/09/2020</p>
-                                    </div>
+                            <div class="busqueda-y-cambioLista">
+                                <div class="busqueda">
+                                    <input type="search" placeholder="Encuentra a tu jugador favorito">
                                 </div>
-                                <div class="contenedor-comentario">
-                                    <div class="comentario">
-                                        <p>
-                                            Increíble el artículo. Roger Federer  es uno de mis jugadores 
-                                            favoritos desde que tengo razón. Sigan sacando más contenido. Me encanta.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="boton-responder">
-                                    <button class="btn azul-prin">Responder</button>
+                                <div class="cambio-lista">
+                                    <button type="button" class="btn btn-cambio-lista"><i class="icon icon-list-bullet"></i></button>
                                 </div>
                             </div>
+                            
                         </div>
+                        <div class="col-12 mb-3">
+                            <div id="accordion">
+                                <div class="card">
+                                  <div class="card-header card-proximos-partidos" id="headingOne">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Jueves 08/10/2020
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="col-12 contenedor-perfil-jugador-info">
+                            
+                                            <div class="table-responsive table-proximos-partidos">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                          <th scope="col">Localidad</th>
+                                                          <th scope="col">Torneos</th>
+                                                          <th scope="col">Sede</th>
+                                                          <th scope="col">Horario</th>
+                                                          <th scope="col">Categoría <br> Ronda</th>
+                                                          <th scope="col">Jugadores</th>
+                                                        </tr>
+                                                      </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                        <td>Capital Federal</td>
+                                                        <td>ATP Tour</td>
+                                                        <td>El Abierto</td>
+                                                        <td>21:00</td>
+                                                        <td>6° <br> Octavos</td>
+                                                        <td class="td-jugadores-proximos-partidos">
+                                                            <div class="jugador-proximo-partido">
+                                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                <p class="azul-prin">Rafael Nadal</p>
+                                                            </div>
+                                                            <p class="vs-proximos-partidos">VS</p>
+                                                            <div class="jugador-proximo-partido">
+                                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                <p class="azul-prin">Rafael Nadal</p>
+                                                            </div>
+
+                                                        </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Capital Federal</td>
+                                                            <td>ATP Tour</td>
+                                                            <td>El Abierto</td>
+                                                            <td>21:00</td>
+                                                            <td>6° <br> Octavos</td>
+                                                            <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <p class="vs-proximos-partidos ml-2 mr-2">VS</p>
+                                                                <div class="jugador-proximo-partido ml-3">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>
+                                                                <div class="jugador-proximo-partido">
+                                                                    <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                    <p class="azul-prin">Rafael Nadal</p>
+                                                                </div>    
+                                                            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-proximos-partidos" id="headingTwoo">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                          Viernes 09/10/2020
+                                        </button>
+                                      </h5>
+                                    </div>
+                                
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                      <div class="card-body">
+                                          <div class="col-12 contenedor-perfil-jugador-info">
+                              
+                                              <div class="table-responsive table-proximos-partidos">
+                                                  <table class="table table-hover">
+                                                      <thead>
+                                                          <tr>
+                                                            <th scope="col">Localidad</th>
+                                                            <th scope="col">Torneos</th>
+                                                            <th scope="col">Sede</th>
+                                                            <th scope="col">Horario</th>
+                                                            <th scope="col">Categoría <br> Ronda</th>
+                                                            <th scope="col">Jugadores</th>
+                                                          </tr>
+                                                        </thead>
+                                                      <tbody>
+                                                          <tr>
+                                                          <td>Capital Federal</td>
+                                                          <td>ATP Tour</td>
+                                                          <td>El Abierto</td>
+                                                          <td>21:00</td>
+                                                          <td>6° <br> Octavos</td>
+                                                          <td class="td-jugadores-proximos-partidos">
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+                                                              <p class="vs-proximos-partidos">VS</p>
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+  
+                                                          </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>Capital Federal</td>
+                                                              <td>ATP Tour</td>
+                                                              <td>El Abierto</td>
+                                                              <td>21:00</td>
+                                                              <td>6° <br> Octavos</td>
+                                                              <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <p class="vs-proximos-partidos ml-2 mr-2">VS</p>
+                                                                  <div class="jugador-proximo-partido ml-3">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>    
+                                                              </td>
+                                                              </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </div>
+                  
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header card-proximos-partidos" id="headingThree">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-link btn-card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                          Domingo 11/10/2020
+                                        </button>
+                                      </h5>
+                                    </div>
+                                
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                      <div class="card-body">
+                                          <div class="col-12 contenedor-perfil-jugador-info">
+                              
+                                              <div class="table-responsive table-proximos-partidos">
+                                                  <table class="table table-hover">
+                                                      <thead>
+                                                          <tr>
+                                                            <th scope="col">Localidad</th>
+                                                            <th scope="col">Torneos</th>
+                                                            <th scope="col">Sede</th>
+                                                            <th scope="col">Horario</th>
+                                                            <th scope="col">Categoría <br> Ronda</th>
+                                                            <th scope="col">Jugadores</th>
+                                                          </tr>
+                                                        </thead>
+                                                      <tbody>
+                                                          <tr>
+                                                          <td>Capital Federal</td>
+                                                          <td>ATP Tour</td>
+                                                          <td>El Abierto</td>
+                                                          <td>21:00</td>
+                                                          <td>6° <br> Octavos</td>
+                                                          <td class="td-jugadores-proximos-partidos">
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+                                                              <p class="vs-proximos-partidos">VS</p>
+                                                              <div class="jugador-proximo-partido">
+                                                                  <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                  <p class="azul-prin">Rafael Nadal</p>
+                                                              </div>
+  
+                                                          </td>
+                                                          </tr>
+                                                          <tr>
+                                                              <td>Capital Federal</td>
+                                                              <td>ATP Tour</td>
+                                                              <td>El Abierto</td>
+                                                              <td>21:00</td>
+                                                              <td>6° <br> Octavos</td>
+                                                              <td class="td-jugadores-proximos-partidos doble-jugadores-proximos-partidos">
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <p class="vs-proximos-partidos ml-2 mr-2">VS</p>
+                                                                  <div class="jugador-proximo-partido ml-3">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>
+                                                                  <div class="jugador-proximo-partido">
+                                                                      <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                                                      <p class="azul-prin">Rafael Nadal</p>
+                                                                  </div>    
+                                                              </td>
+                                                              </tr>
+                                                      </tbody>
+                                                  </table>
+                                              </div>
+                  
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                  
+                              </div>
+                        </div>
+                        <nav aria-label="..." class="d-flex justify-content-center" style="width: 100%;">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <span class="page-link">Anterior</span>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item">
+                                <span class="page-link">
+                                  2
+                                </span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Siguiente</a>
+                              </li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>             
+                </div>         
                 <div class="container" id="ultimas-noticias">
                     <div class="row">
                         <div class="col-10 offset-1 offset-sm-0 col-sm-12 pl-0">
@@ -335,7 +518,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 widget-proximo-partido widget">
+                        <div class="col-12 widget-proximo-partido widget mb-3">
                             <div class="widget-title">
                                 <h2 class="title-h2">Próximo partido: <span><a href="#">15-10-20</a></span></h2>
                             </div>
@@ -376,47 +559,6 @@
                                 </div>
                                 <div class="col-12">
                                     <button class="btn boton-widget">Ver más</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 widget-poster widget">
-                            <div class="img-widget-poster">
-                                <img src="./img/poster-widget.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-12 widget-noticias-destacadas widget d-none d-xl-block">
-                            <div class="widget-title">
-                                <h2 class="title-h2">Destacados</h2>
-                                <a href="#">Ver más</a>
-                            </div>
-                            <div class="widget-noticia">
-                                <div class="img-widget-noticia">
-                                    <img src="./img/widget-img-2.jpg" alt="">
-                                </div>
-                                <div class="widget-noticia-asunto">
-                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
-                                    <br>
-                                    <a href="#" class="d-none d-xl-block">Categoría</a>
-                                </div>
-                            </div>
-                            <div class="widget-noticia">
-                                <div class="img-widget-noticia">
-                                    <img src="./img/widget-img-2.jpg" alt="">
-                                </div>
-                                <div class="widget-noticia-asunto">
-                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
-                                    <br>
-                                    <a href="#" class="d-none d-xl-block">Categoría</a>
-                                </div>
-                            </div>
-                            <div class="widget-noticia">
-                                <div class="img-widget-noticia">
-                                    <img src="./img/widget-img-2.jpg" alt="">
-                                </div>
-                                <div class="widget-noticia-asunto">
-                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
-                                    <br>
-                                    <a href="#" class="d-none d-xl-block">Categoría</a>
                                 </div>
                             </div>
                         </div>
