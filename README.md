@@ -1,2 +1,0 @@
-# PadelAdmin
-Victor Web Site
