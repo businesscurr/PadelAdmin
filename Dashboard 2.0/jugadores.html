@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Partidos</title>
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">
+    <img src="./img/Logotipo.png" alt="Logotipo Padel Admin" style="width: 150px;">
+  </a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-newspaper"></i>
+              Noticias
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-pie"></i>
+              Resultados
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-calendar"></i>
+              Calendario
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-bar"></i>
+              Ranking
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-cog"></i>
+              Gestión
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-user"></i>
+              Perfil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-logout"></i>
+              Cerrar Sesión
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4  contenedor-main-dashboard">
+      
+      <div class="header-up">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Gestión</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Partidos</li>
+          </ol>
+        </nav>
+        <div class="more-option-profile">
+          <div class="search-notification-profile">
+            <i class="icon icon-search"></i>
+            <i class="icon icon-bell"></i>
+          </div>
+          <span>|</span>
+          <div class="name-user-profile">
+            <a href="#">Admin Name</a>
+            <div class="img-user-profile">
+              <img src="./img/Foto 2.jpg" alt="Foto de perfil">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="opciones-dashboard">
+          <div class="opciones-dashboard-filtros">
+              <button class="btn btn-filtros-dashboard">
+                  <i class="icon icon-sliders"></i> <span>Filtros</span>
+              </button>
+          </div>
+
+          <div class="opciones-dashboard-search-agregar">
+            <input type="search" placeholder="Buscar Jugador">
+            <button class="btn btn-agregar-dasboard"><span class="agregar-btn">Agregar</span> <span class="plus">+</span></button>
+          </div>
+      </div>
+      
+      <h2 class="title-h2 ml-md-2">Jugadores</h2>
+      
+      <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Jugador</th>
+                <th scope="col">Categoría</th>
+                <th scope="col">Torneos Inscritos</th>
+                <th scope="col">Pagos Pendientes</th>
+                <th scope="col">Opcionez</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="d-flex align-items-center justify-content-between">
+                    <div class="lista-jugadores-equipo">
+                        <div class="lista-jugador d-flex align-items-center">
+                            <div class="img-lista-jugador mr-1">
+                                <img src="./img/Foto 3.jpg" alt="Foto Jugador">
+                            </div>
+                            <p class="mb-0">Rafael Nadal</p>
+                        </div>
+                    </div> 
+                </td>
+                <td>6°</td>
+                <td style="color: #2D9CDB;">5</td>
+                <td style="color: #EB5757;">2</td>
+                <td>
+                    <div class="botones-lista d-flex align-items-center">
+                        <button class="lista-btn-editar btn" type="button"><i class="icon icon-pencil"></i></button>
+                        <button class="lista-btn-eliminar btn"><i class="icon icon-trash-empty"></i></button>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="d-flex align-items-center justify-content-between">
+                    <div class="lista-jugadores-equipo">
+                        <div class="lista-jugador d-flex align-items-center">
+                            <div class="img-lista-jugador mr-1">
+                                <img src="./img/Foto 3.jpg" alt="Foto Jugador">
+                            </div>
+                            <p class="mb-0">Rafael Nadal</p>
+                        </div>
+                    </div> 
+                </td>
+                <td>6°</td>
+                <td style="color: #2D9CDB;">5</td>
+                <td style="color: #EB5757;">2</td>
+                <td>
+                    <div class="botones-lista d-flex align-items-center">
+                        <button class="lista-btn-editar btn" type="button"><i class="icon icon-pencil"></i></button>
+                        <button class="lista-btn-eliminar btn"><i class="icon icon-trash-empty"></i></button>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="d-flex align-items-center justify-content-between">
+                    <div class="lista-jugadores-equipo">
+                        <div class="lista-jugador d-flex align-items-center">
+                            <div class="img-lista-jugador mr-1">
+                                <img src="./img/Foto 3.jpg" alt="Foto Jugador">
+                            </div>
+                            <p class="mb-0">Rafael Nadal</p>
+                        </div>
+                    </div> 
+                </td>
+                <td>6°</td>
+                <td style="color: #2D9CDB;">5</td>
+                <td style="color: #EB5757;">2</td>
+                <td>
+                    <div class="botones-lista d-flex align-items-center">
+                        <button class="lista-btn-editar btn" type="button"><i class="icon icon-pencil"></i></button>
+                        <button class="lista-btn-eliminar btn"><i class="icon icon-trash-empty"></i></button>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="d-flex align-items-center justify-content-between">
+                    <div class="lista-jugadores-equipo">
+                        <div class="lista-jugador d-flex align-items-center">
+                            <div class="img-lista-jugador mr-1">
+                                <img src="./img/Foto 3.jpg" alt="Foto Jugador">
+                            </div>
+                            <p class="mb-0">Rafael Nadal</p>
+                        </div>
+                    </div> 
+                </td>
+                <td>6°</td>
+                <td style="color: #2D9CDB;">5</td>
+                <td style="color: #EB5757;">2</td>
+                <td>
+                    <div class="botones-lista d-flex align-items-center">
+                        <button class="lista-btn-editar btn" type="button"><i class="icon icon-pencil"></i></button>
+                        <button class="lista-btn-eliminar btn"><i class="icon icon-trash-empty"></i></button>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="d-flex align-items-center justify-content-between">
+                    <div class="lista-jugadores-equipo">
+                        <div class="lista-jugador d-flex align-items-center">
+                            <div class="img-lista-jugador mr-1">
+                                <img src="./img/Foto 3.jpg" alt="Foto Jugador">
+                            </div>
+                            <p class="mb-0">Rafael Nadal</p>
+                        </div>
+                    </div> 
+                </td>
+                <td>6°</td>
+                <td style="color: #2D9CDB;">5</td>
+                <td style="color: #EB5757;">2</td>
+                <td>
+                    <div class="botones-lista d-flex align-items-center">
+                        <button class="lista-btn-editar btn" type="button"><i class="icon icon-pencil"></i></button>
+                        <button class="lista-btn-eliminar btn"><i class="icon icon-trash-empty"></i></button>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      
+    </main>
+  </div>
+</div>
+
+
+    <script src="./js/elementsnss.bundle.min.js.map"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
+

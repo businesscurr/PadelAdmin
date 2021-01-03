@@ -1,0 +1,186 @@
+/* --- --- COLORS --- --- */
+/* --- --- #0D222A --- --- */
+/* --- --- #9C9C9C --- --- */
+/* --- --- #03080B --- --- */
+/* --- --- #FEFEFE --- --- */
+/* --- --- #A2D5E9 --- --- */
+/* --- --- #F0F2F5 --- --- */
+/* --- --- #DDDDDD --- --- */
+/* --- --- #F2C94C --- --- */
+/* --- --- #219653 --- --- */
+/* --- --- #1F5266 --- --- */
+/* --- --- #F2994A --- --- */
+/* --- --- #EB5757 --- --- */
+/* --- --- #3384A5 --- --- */
+/* --- --- #2D9CDB --- --- */
+
+.verde {
+    color: #219653;
+}
+
+.azul-prin {
+    color: #2D9CDB;
+}
+
+.barra-widgets {
+    max-width: 300px;
+}
+
+.barra-widgets .widget-fotos-recientes .img-fotos-recientes {
+    min-width: 85px;
+    max-width: 85px;
+    min-height: 85px;
+    max-height: 85px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-fotos-recientes .img-fotos-recientes img{
+    height: 100%;
+    width: 100%;
+}
+
+.col-widget-img {
+    margin-bottom: 10px;
+}
+
+.barra-widgets .widget {
+    margin-bottom: 20px;
+}
+
+.barra-widgets .widget-title h2,
+.barra-widgets .widget-title a{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.barra-widgets .widget-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-widgets .widget-ranking-people {
+    border-bottom: 1px solid #9C9C9C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.barra-widgets .widget-ranking-people .img-widget-ranking-people {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-ranking-people .img-widget-ranking-people img {
+    width: 100%;
+}
+
+.barra-widgets .widget-ranking-people .widget-ranking-name {
+    margin-left: -80px;
+}
+
+.barra-widgets .widget-ranking-people .widget-ranking-name a{
+    color: #03080B;
+}
+
+.barra-widgets .widget-ranking-people .widget-ranking-position {
+    margin-right: 20px;
+}
+
+.barra-widgets .widget-ranking-people .widget-ranking-position p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido {
+    margin-top: 10px;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido {
+    border: 1px solid #9C9C9C;
+    border-radius: 100%;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.barra-widgets .widget-proximo-partido .jugador-widget-proximo-partido .img-widget-proximo-partido  img {
+    width: 100%;
+}
+
+.barra-widgets .widget-proximo-partido p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.barra-widgets .widget-proximo-partido .info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.barra-widgets .widget-proximo-partido .info .horario-widget-proximo-partido {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.barra-widgets .boton-widget {
+    width: 60%;
+    background: #2D9CDB;
+    color: #FEFEFE;
+    margin-top: 10px;
+}
+
+.barra-widgets .boton-widget:hover {
+    background: #3384A5;
+}
+
+.barra-widgets .widget-poster .img-widget-poster {
+    max-width: 90%;
+    max-height: 380px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-poster .img-widget-poster img {
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia {
+    display: flex;
+    margin-bottom: 1;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia {
+    min-width: 95px;
+    max-width: 95px;
+    min-height: 80px;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .img-widget-noticia img{
+    width: 100%;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-asunto {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.barra-widgets .widget-noticias-destacadas .widget-noticia .widget-asunto a:last-child {
+    color: #373737;
+}

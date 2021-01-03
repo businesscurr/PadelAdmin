@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Gestión</title>
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">
+    <img src="./img/Logotipo.png" alt="Logotipo Padel Admin" style="width: 150px;">
+  </a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-newspaper"></i>
+              Noticias
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-pie"></i>
+              Resultados
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-calendar"></i>
+              Calendario
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-chart-bar"></i>
+              Ranking
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-cog"></i>
+              Gestión
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-user"></i>
+              Perfil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="icon icon-logout"></i>
+              Cerrar Sesión
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4  contenedor-main-dashboard">
+      
+      <div class="header-up">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Gestión</li>
+          </ol>
+        </nav>
+        <div class="more-option-profile">
+          <div class="search-notification-profile">
+            <i class="icon icon-search"></i>
+            <i class="icon icon-bell"></i>
+          </div>
+          <span>|</span>
+          <div class="name-user-profile">
+            <a href="#">Admin Name</a>
+            <div class="img-user-profile">
+              <img src="./img/Foto 2.jpg" alt="Foto de perfil">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <h2 class="title-h2 ml-md-2 mt-0">Pagos</h2>
+      
+      <div class="row">
+          <div class="col-12 col-lg-6 col-xl-4 contenedor-cards">
+            <div class="card card-body-style" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Jugadores</h5>
+                  <div class="img-card-gestion">
+                      <img src="./img/Users.png" alt="">
+                  </div>
+        
+                  <div class="card-body-gestion">
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">Inscritos</p>
+                            <p class="mb-0 info-opciones-card-number">64</p>
+                        </div>
+                    </div>
+                    <div class="botones-opciones-card-gestion">
+                        <button type="button" class="btn btn-card-gestion-agregar"><i class="icon icon-plus"></i></button>
+                        <button type="button" class="btn btn-card-gestion-ver"><i class="icon icon-eye"></i></button>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-4 contenedor-cards">
+            <div class="card card-body-style" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Torneos</h5>
+                  <div class="img-card-gestion">
+                      <img src="./img/Trofeo.png" alt="">
+                  </div>
+        
+                  <div class="card-body-gestion">
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">Activos</p>
+                            <p class="mb-0 info-opciones-card-number">64</p>
+                        </div>
+                    </div>
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">Cerrados</p>
+                            <p class="mb-0 info-opciones-card-number" style="color: #219653;">28</p>
+                        </div>
+                    </div>
+                    <div class="botones-opciones-card-gestion">
+                        <button type="button" class="btn btn-card-gestion-agregar"><i class="icon icon-plus"></i></button>
+                        <button type="button" class="btn btn-card-gestion-ver"><i class="icon icon-eye"></i></button>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-4 contenedor-cards">
+            <div class="card card-body-style" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Partidos</h5>
+                  <div class="img-card-gestion">
+                      <img src="./img/Calendar.png" alt="">
+                  </div>
+        
+                  <div class="card-body-gestion">
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">Próximos</p>
+                            <p class="mb-0 info-opciones-card-number">27</p>
+                        </div>
+                    </div>
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">En curso</p>
+                            <p class="mb-0 info-opciones-card-number" style="color: #219653;">5</p>
+                        </div>
+                    </div>
+                    <div class="botones-opciones-card-gestion">
+                        <button type="button" class="btn btn-card-gestion-agregar"><i class="icon icon-plus"></i></button>
+                        <button type="button" class="btn btn-card-gestion-ver"><i class="icon icon-eye"></i></button>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-4 contenedor-cards  mb-3">
+            <div class="card card-body-style" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Pagos</h5>
+                  <div class="img-card-gestion">
+                      <img src="./img/Dollar.png" alt="" class="dollar">
+                  </div>
+        
+                  <div class="card-body-gestion">
+                    <div class="opciones-card-gestion">
+                        <div class="info-opciones-card-gestion">
+                            <p class="mb-0" class="info-opciones-card-number">Inscritos</p>
+                            <p class="mb-0 info-opciones-card-number">64</p>
+                        </div>
+                    </div>
+                    <div class="botones-opciones-card-gestion">
+                        <button type="button" class="btn btn-card-gestion-agregar"><i class="icon icon-plus"></i></button>
+                        <button type="button" class="btn btn-card-gestion-ver"><i class="icon icon-eye"></i></button>
+                    </div>
+                  </div>          
+                </div>
+              </div>
+          </div>
+      </div>
+      
+      
+
+    </main>
+  </div>
+</div>
+
+
+    <script src="./js/elementsnss.bundle.min.js.map"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
+

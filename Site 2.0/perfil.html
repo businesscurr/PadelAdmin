@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 header-up-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 header-up">
+                            <p><a href="#">Regístrarse</a></p>
+                            <p><a href="#">Iniciar Sesión</a></p>
+                            <div class="img-header-up">
+                                <a href="#">
+                                    <img src="./img/img-header-up.png" alt="Imagen del Perfil">
+                                </a>
+                            </div>
+                            <div class="idioma">
+                                <select name="idioma" id="idioma">
+                                    <option value="español">Español</option>
+                                    <option value="inglés">Inglés</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 header-down-bg">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logotipo-site.png" alt="Logo Padel Admin">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Clubes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Juegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jugadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  </ul>
+                </div>
+            </div>
+            </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-9">
+                    <div class="perfil">        
+                        <button class="title-collapse perfil-button" data-toggle="collapse" href="#perfil" role="button" aria-expanded="false" aria-controls="perfil">
+                        Perfil
+                        </button>
+                        <div class="collapse" id="perfil">
+                        <div class="card card-body">
+                            <div class="foto-perfil">
+                                <a href="#">
+                                    <img src="./img/Foto 3.jpg" alt="">
+                                </a>
+                            </div>
+                            <p><span>*</span><small>La imagen debe tener 500px de <br> ancho y 500px de alto.</small></p>
+                            <form action="">
+                                <div class="nombre contenedor-formulario">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" placeholder="Nombre" id="nombre">
+                                </div>
+                                <div class="email contenedor-formulario">
+                                    <label for="email">Email</label>
+                                    <input type="text" placeholder="contacto@padeladmin.com" id="email">
+                                </div>
+                                <div class="tlf contenedor-formulario">
+                                    <label for="tlf">Teléfono</label>
+                                    <input type="text" placeholder="+58 9 11 1234-5678" id="tlf">
+                                </div>
+                                <div class="localidad contenedor-formulario">
+                                    <label for="localidad">Localidad</label>
+                                    <select name="localidad" id="localidad">
+                                        <option value="1">Localidad 1</option>
+                                        <option value="2">Localidad 2</option>
+                                        <option value="3">Localidad 3</option>
+                                        <option value="4">Localidad 4</option>
+                                    </select>
+                                </div>
+                                <div class="lenguaje contenedor-formulario">
+                                    <label for="lenguaje">Email</label>
+                                    <select name="lenguaje" id="lenguaje">
+                                        <option value="español">Español</option>
+                                        <option value="ingles">Inglés</option>
+                                    </select>
+                                </div>
+                                <div class="button">
+                                    <button type="submit" class="guardar btn">Guardar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contraseña">
+                        <button class="title-collapse contraseña-button" data-toggle="collapse" href="#contraseña" role="button" aria-expanded="false" aria-controls="contraseña">
+                        Contraseña
+                        </button>
+                    <div class="collapse" id="contraseña">
+                        <div class="card card-body">
+                            <form action="">
+                                <div class="contraseña-a contenedor-formulario">
+                                    <label for="contraseña-a">Contraseña Actual</label>
+                                    <input type="password" placeholder="contraseña" id="contraseña-a">
+                                </div>
+                                <div class="contraseña-n contenedor-formulario">
+                                    <label for="contraseña-n">Nueva Contraseña</label>
+                                    <input type="password" placeholder="contraseña" id="contraseña-n">
+                                </div>
+                                <div class="button">
+                                    <button type="submit" class="guardar btn">Guardar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 d-none d-lg-block">
+                <div class="container">
+                    <div class="row barra-widgets">
+                        <div class="col-12 widget-fotos-recientes widget">
+                            <div class="widget-title">
+                                <h2 class="title-h2">Fotos Recientes</h2>
+                                <a href="#">Ver más</a>
+                            </div>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4 col-widget-img">
+                                    <div class="img-fotos-recientes">
+                                        <img src="./img/widget-img-2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 widget-ranking widget">
+                            <div class="widget-title">
+                                <h2 class="title-h2">Ranking</h2>
+                                <a href="#">Ver más</a>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 widget-ranking-people">
+                                    <div class="contenedor-ranking-people">
+                                        <div class="jugador-widget-ranking-people">                                        
+                                            <div class="img-widget-ranking-people">
+                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            </div>
+                                            <div class="widget-ranking-name">
+                                                <a href="#">Leslie Alexander</a>
+                                            </div>
+                                        </div>
+                                        <div class="widget-ranking-position">
+                                            <p class="verde">1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 widget-ranking-people">
+                                    <div class="contenedor-ranking-people">
+                                        <div class="jugador-widget-ranking-people">                                        
+                                            <div class="img-widget-ranking-people">
+                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            </div>
+                                            <div class="widget-ranking-name">
+                                                <a href="#">Leslie Alexander</a>
+                                            </div>
+                                        </div>
+                                        <div class="widget-ranking-position">
+                                            <p class="verde">2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 widget-ranking-people">
+                                    <div class="contenedor-ranking-people">
+                                        <div class="jugador-widget-ranking-people">                                        
+                                            <div class="img-widget-ranking-people">
+                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            </div>
+                                            <div class="widget-ranking-name">
+                                                <a href="#">Leslie Alexander</a>
+                                            </div>
+                                        </div>
+                                        <div class="widget-ranking-position">
+                                            <p class="verde">3</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 widget-ranking-people">
+                                    <div class="contenedor-ranking-people">
+                                        <div class="jugador-widget-ranking-people">                                        
+                                            <div class="img-widget-ranking-people">
+                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            </div>
+                                            <div class="widget-ranking-name">
+                                                <a href="#">Leslie Alexander</a>
+                                            </div>
+                                        </div>
+                                        <div class="widget-ranking-position">
+                                            <p>4</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 widget-ranking-people">
+                                    <div class="contenedor-ranking-people">
+                                        <div class="jugador-widget-ranking-people">                                        
+                                            <div class="img-widget-ranking-people">
+                                                <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                            </div>
+                                            <div class="widget-ranking-name">
+                                                <a href="#">Leslie Alexander</a>
+                                            </div>
+                                        </div>
+                                        <div class="widget-ranking-position">
+                                            <p>5</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 widget-proximo-partido widget">
+                            <div class="widget-title">
+                                <h2 class="title-h2">Próximo partido: <span><a href="#">15-10-20</a></span></h2>
+                            </div>
+                            <div class="row text-center contenedor-jugadores-widget-proximo-partido">
+                                <div class="col-5 pr-0">
+                                    <div class="jugador-widget-proximo-partido">
+                                        <div class="img-widget-proximo-partido">
+                                            <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                        </div>
+                                        <p>Leslie Alexander</p>
+                                    </div>
+                                    <div class="jugador-widget-proximo-partido">
+                                        <div class="img-widget-proximo-partido">
+                                            <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                        </div>
+                                        <p>Leslie Alexander</p>
+                                    </div>
+                                </div>
+                                <div class="col-2 pl-0 pr-0">
+                                    <div class="info">
+                                        <p class="horario-widget-proximo-partido azul-prin">22:00</p>
+                                        <p>VS</p>
+                                    </div>
+                                </div>
+                                <div class="col-5 pl-0">
+                                    <div class="jugador-widget-proximo-partido">
+                                        <div class="img-widget-proximo-partido">
+                                            <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                        </div>
+                                        <p>Leslie Alexander</p>
+                                    </div>
+                                    <div class="jugador-widget-proximo-partido">
+                                        <div class="img-widget-proximo-partido">
+                                            <img src="./img/img-user-widget-ranking.jpg" alt="">
+                                        </div>
+                                        <p>Leslie Alexander</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn boton-widget">Ver más</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 widget-poster widget">
+                            <div class="img-widget-poster">
+                                <img src="./img/poster-widget.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-12 widget-noticias-destacadas widget d-none d-xl-block">
+                            <div class="widget-title">
+                                <h2 class="title-h2">Destacados</h2>
+                                <a href="#">Ver más</a>
+                            </div>
+                            <div class="widget-noticia">
+                                <div class="img-widget-noticia">
+                                    <img src="./img/widget-img-2.jpg" alt="">
+                                </div>
+                                <div class="widget-noticia-asunto">
+                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
+                                    <br>
+                                    <a href="#" class="d-none d-xl-block">Categoría</a>
+                                </div>
+                            </div>
+                            <div class="widget-noticia">
+                                <div class="img-widget-noticia">
+                                    <img src="./img/widget-img-2.jpg" alt="">
+                                </div>
+                                <div class="widget-noticia-asunto">
+                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
+                                    <br>
+                                    <a href="#" class="d-none d-xl-block">Categoría</a>
+                                </div>
+                            </div>
+                            <div class="widget-noticia">
+                                <div class="img-widget-noticia">
+                                    <img src="./img/widget-img-2.jpg" alt="">
+                                </div>
+                                <div class="widget-noticia-asunto">
+                                    <a href="#" class="azul-prin">!No lo vas a creer¡ Rafa Nadal Reveló su estrategia de juego</a>
+                                    <br>
+                                    <a href="#" class="d-none d-xl-block">Categoría</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1 offset-sm-0 col-sm-12 pl-0">
+                    <h2 class="title-h2">Partners</h2>
+                </div>
+                <div class="col-10 offset-1 offset-sm-0 col-sm-12 partners">
+                    <div class="row">
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/emirates.png" alt="Logotipo Emirates">
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/gatorade.png" alt="Logotipo Gatorade">
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/w.png" alt="Logotipo Wilson">
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/lacoste.png" alt="Logotipo Lacoste">
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/rolex.png" alt="Logotipo Rolex">
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div class="img">
+                                <img src="./img/perrier.png" alt="Logotipo Perrier">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center footer-up align-items-center">
+                <div class="col-12 col-lg">
+                    <p class="mb-0 mt-1 mt-lg-0">contacto@padeladmin.com</p>
+                    <p class="mb-0 mt-1 mt-lg-0">+54 9 11 45555555</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="container-fluid footer-nav mt-1 mt-lg-0">
+                        <div class="row text-center">
+                            <div class="col-12 col-sm">
+                                <a href="#">Blog</a>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <a href="#">Clubes</a>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <a href="#">Juegos</a>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <a href="#">Jugadores</a>
+                            </div>
+                            <div class="col-12 col-sm">
+                                <a href="#">Calendario</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg footer-rrss d-flex justify-content-center justify-content-lg-around align-items-center mt-3 mt-lg-0 mb-2 mb-lg-0">
+                    <a href="#" class="ml-3 ml-lg-0 mr-3 mr-lg-0">
+                        <img src="./img/wh.png" alt="WhatsApp">
+                    </a>                    
+                    <a href="#" class="ml-3 ml-lg-0 mr-3 mr-lg-0">
+                        <img src="./img/fb.png" alt="Facebook">
+                    </a>
+                    <a href="#" class="ml-3 ml-lg-0 mr-3 mr-lg-0">
+                        <img src="./img/ins.png" alt="Instagram">
+                    </a>
+                    <a href="#" class="ml-3 ml-lg-0 mr-3 mr-lg-0">
+                        <img src="./img/pin.png" alt="Pinterest">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="container">
+            <div class="row text-center footer-down align-items-center">
+                <div class="col-12 col-lg-3 mt-3 mt-lg-0">
+                    <p class="mb-0">
+                        <a href="#">Política de Privacidad</a>
+                    </p> 
+                    <p class="mb-0">
+                        <a href="#">Términos y Condiciones</a>
+                    </p>               
+                </div>
+                <div class="col-12 col-lg d-flex justify-content-center justify-content-lg-end flex-column flex-lg-row">
+                    <div class="app mr-lg-3 mt-3 mt-lg-0">
+                        <a href="#">
+                            <img src="./img/App Store.png" alt="">
+                        </a>
+                    </div>
+                    <div class="app ml-lg-3 mt-2 mt-lg-0 mb-2 mb-lg-0">
+                        <a href="#">
+                            <img src="./img/Google play.png" alt="">
+                        </a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
